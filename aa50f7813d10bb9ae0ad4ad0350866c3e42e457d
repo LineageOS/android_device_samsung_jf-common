@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iOtXrsg",
+        "filename": "loki/loki.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2013-05-31T02:04:32Z",
+      "side": 1,
+      "message": "we already do that in the rest of the install script, you asking to flash twice",
+      "revId": "aa50f7813d10bb9ae0ad4ad0350866c3e42e457d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
