@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_0fcc1588",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2013-07-19T09:19:28Z",
+      "side": 1,
+      "message": "ifeq ($(HAVE_SELINUX),true)",
+      "revId": "e2020b53fdaa9cc4ff913eaeef4af365e7755c90",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
