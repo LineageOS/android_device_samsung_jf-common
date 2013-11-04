@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa1b9901_bda9ebe1",
+        "filename": "jf-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2013-11-04T09:07:46Z",
+      "side": 1,
+      "message": "Should be init.crda.sh I think.",
+      "revId": "fe1085cc390b1e68d2110863ca72a1a6c52b650d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
