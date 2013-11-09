@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa1b9901_57e4233a",
+        "filename": "jf-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 56
+      },
+      "writtenOn": "2013-11-09T06:48:37Z",
+      "side": 1,
+      "message": "jf-common",
+      "revId": "29c24c801f91670df43b4d1fab6e5c9ddf97c855",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_f7cf77b1",
+        "filename": "jf-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 56
+      },
+      "writtenOn": "2013-11-09T06:48:37Z",
+      "side": 1,
+      "message": "same",
+      "revId": "29c24c801f91670df43b4d1fab6e5c9ddf97c855",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
