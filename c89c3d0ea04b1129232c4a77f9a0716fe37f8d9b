@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a68dd71_e78ca237",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2013-12-23T15:07:17Z",
+      "side": 1,
+      "message": "It\u0027s set again a bit further down, and also already set in jf-common.mk",
+      "revId": "c89c3d0ea04b1129232c4a77f9a0716fe37f8d9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a68dd71_477c8e20",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2013-12-23T15:07:17Z",
+      "side": 1,
+      "message": "Above 2 lines duplicated a bit further down.",
+      "revId": "c89c3d0ea04b1129232c4a77f9a0716fe37f8d9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
