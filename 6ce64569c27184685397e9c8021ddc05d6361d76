@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_f6ec8891",
+        "filename": "init/init_jflte.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 5666
+      },
+      "writtenOn": "2014-02-02T08:40:42Z",
+      "side": 1,
+      "message": "jflteusc",
+      "revId": "6ce64569c27184685397e9c8021ddc05d6361d76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
