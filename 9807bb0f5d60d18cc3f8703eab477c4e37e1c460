@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fade3982_ff73adb2",
+        "filename": "rootdir/etc/init.led.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 8328
+      },
+      "writtenOn": "2014-02-13T03:43:49Z",
+      "side": 1,
+      "message": "`cat /sys/class/power_supply/battery/charge_now` \u003d \"0\"",
+      "revId": "9807bb0f5d60d18cc3f8703eab477c4e37e1c460",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
