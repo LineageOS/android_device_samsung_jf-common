@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_9c125bb3",
+        "filename": "cmhw/org/cyanogenmod/hardware/HighTouchSensitivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-09-13T11:10:14Z",
+      "side": 1,
+      "message": "Don\u0027t need this file anymore.",
+      "revId": "772de0f4035e5929080dc9b730803776d0268cc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_7c177fa3",
+        "filename": "jf-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-09-13T11:10:14Z",
+      "side": 1,
+      "message": "Can use $(LOCAL_PATH) :\u003d device/samsung/jf-common for this.",
+      "revId": "772de0f4035e5929080dc9b730803776d0268cc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
