@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_dd584dfd",
+        "filename": "extract-files.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 10132
+      },
+      "writtenOn": "2014-09-15T00:33:44Z",
+      "side": 1,
+      "message": "-z doesn\u0027t work here, replace with -f",
+      "revId": "a01c57f3f5e4a618266c6a660c4e47bdc157cfb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
