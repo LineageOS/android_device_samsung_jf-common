@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a122d0e_7054e953",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 56
+      },
+      "writtenOn": "2014-11-14T03:14:31Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be device/samsung/jf-common/include  ?",
+      "revId": "6f4eeaa843d4321b72f19765ff693fdc4cf85fd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
