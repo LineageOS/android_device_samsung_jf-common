@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a122d0e_79a32d9f",
+        "filename": "jf-common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-11-16T16:02:13Z",
+      "side": 1,
+      "message": "remove this line or move it up under #Permissions\n\notherwise everythig after it doesn\u0027t get included",
+      "revId": "eef785d6655cd25f3b6842c2e5398445fa05b05a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
