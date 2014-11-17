@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a122d0e_1ff819e5",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-11-17T06:37:50Z",
+      "side": 1,
+      "message": "Nitpicky, but this should go below GPS (alphabetically)",
+      "revId": "7ceabf28b621d4278630900ed7a979217c755f37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a122d0e_3ff3550c",
+        "filename": "camera/CameraWrapper.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-11-17T06:37:50Z",
+      "side": 1,
+      "message": "just remove it then",
+      "revId": "7ceabf28b621d4278630900ed7a979217c755f37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
