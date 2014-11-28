@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_5c4bda2b",
+        "filename": "configs/media_codecs.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 56
+      },
+      "writtenOn": "2014-11-28T11:50:26Z",
+      "side": 1,
+      "message": "tab nitpick",
+      "revId": "152e2be2b3469d0b2eda9569298435e41fd29e91",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
