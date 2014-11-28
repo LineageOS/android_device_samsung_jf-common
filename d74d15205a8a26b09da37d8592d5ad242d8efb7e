@@ -16,6 +16,24 @@
       "revId": "d74d15205a8a26b09da37d8592d5ad242d8efb7e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_9ce542aa",
+        "filename": "configs/media_codecs.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-11-28T16:32:17Z",
+      "side": 1,
+      "message": "This is the way google does the includes on nexus for whatever reason.",
+      "parentUuid": "bab6814e_5cdbdaed",
+      "revId": "d74d15205a8a26b09da37d8592d5ad242d8efb7e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
