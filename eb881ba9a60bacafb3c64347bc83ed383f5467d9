@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "bab6814e_8c3eaab6",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2014-12-02T19:40:33Z",
+      "side": 1,
+      "message": "this is just ifeq() it will always fall back to else clause.",
+      "parentUuid": "bab6814e_8c106a50",
+      "revId": "eb881ba9a60bacafb3c64347bc83ed383f5467d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bab6814e_69b6d88b",
         "filename": "jf-common.mk",
         "patchSetId": 4
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "ROFL\nNO",
       "parentUuid": "bab6814e_69b6d88b",
+      "revId": "eb881ba9a60bacafb3c64347bc83ed383f5467d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_ec4bf657",
+        "filename": "jf-common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2014-12-02T19:40:33Z",
+      "side": 1,
+      "message": "it is because you changed the suffix to default which is locarted in\n\nifneq ($(BOARD_NFC_HAL_SUFFIX),)\n    HAL_SUFFIX :\u003d $(BOARD_NFC_HAL_SUFFIX)\nelse\n    HAL_SUFFIX :\u003d bcm2079x.default\nendif",
+      "parentUuid": "bab6814e_ec1db667",
       "revId": "eb881ba9a60bacafb3c64347bc83ed383f5467d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
