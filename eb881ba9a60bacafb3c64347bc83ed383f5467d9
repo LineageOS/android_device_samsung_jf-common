@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_89221cb8",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2014-12-02T19:26:14Z",
+      "side": 1,
+      "message": "this doesn\u0027t do anything, but with one side effect it changes the hal suffix to default. hich is why you are having to build the default suffix",
+      "revId": "eb881ba9a60bacafb3c64347bc83ed383f5467d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_69b6d88b",
+        "filename": "jf-common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2014-12-02T19:26:14Z",
+      "side": 1,
+      "message": "nfc_nci.bcm2079x.msm8960",
+      "revId": "eb881ba9a60bacafb3c64347bc83ed383f5467d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
