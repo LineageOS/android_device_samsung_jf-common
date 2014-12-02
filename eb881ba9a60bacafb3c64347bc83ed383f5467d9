@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "bab6814e_8c106a50",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-02T19:28:55Z",
+      "side": 1,
+      "message": "go ahead and tell me this doesn\u0027t do anything, but until you look at the source, i\u0027m not listening to a damn thing\n\nhttps://github.com/CyanogenMod/android_external_libnfc-nci/blob/cm-12.0/Android.mk#L58\n\nlooks to me like setting it to something other than pn547 will force it to NOT include halimpl/pn54x/hal.mk",
+      "parentUuid": "bab6814e_89221cb8",
+      "revId": "eb881ba9a60bacafb3c64347bc83ed383f5467d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bab6814e_69b6d88b",
         "filename": "jf-common.mk",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2014-12-02T19:26:14Z",
       "side": 1,
       "message": "nfc_nci.bcm2079x.msm8960",
+      "revId": "eb881ba9a60bacafb3c64347bc83ed383f5467d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_ec1db667",
+        "filename": "jf-common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-02T19:28:55Z",
+      "side": 1,
+      "message": "ROFL\nNO",
+      "parentUuid": "bab6814e_69b6d88b",
       "revId": "eb881ba9a60bacafb3c64347bc83ed383f5467d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
