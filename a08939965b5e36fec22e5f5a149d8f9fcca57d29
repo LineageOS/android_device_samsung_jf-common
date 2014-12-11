@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abb7d3a_985554c8",
+        "filename": "configs/media_codecs.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-11T15:45:16Z",
+      "side": 1,
+      "message": "remove the above line",
+      "revId": "a08939965b5e36fec22e5f5a149d8f9fcca57d29",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abb7d3a_785230df",
+        "filename": "configs/media_codecs.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-11T15:45:16Z",
+      "side": 1,
+      "message": "remove the above line",
+      "revId": "a08939965b5e36fec22e5f5a149d8f9fcca57d29",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
