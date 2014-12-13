@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_ceba836e",
+        "filename": "rootdir/etc/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 56
+      },
+      "writtenOn": "2014-12-13T03:11:00Z",
+      "side": 1,
+      "message": "tabs",
+      "revId": "d1e8abc82f26ecdbe6e82673a2042943c74be7fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_2eb0678b",
+        "filename": "rootdir/etc/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 56
+      },
+      "writtenOn": "2014-12-13T03:11:00Z",
+      "side": 1,
+      "message": "tabs",
+      "revId": "d1e8abc82f26ecdbe6e82673a2042943c74be7fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
