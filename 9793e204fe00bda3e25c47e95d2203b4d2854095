@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_4272e27d",
+        "filename": "sepolicy/bluetooth.te",
+        "patchSetId": 10
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-13T20:32:55Z",
+      "side": 1,
+      "message": "this and the line below can be combined\n\neither: { open write }\n\nor\n\nrw_file_perms\n\n(i prefer the second)",
+      "revId": "9793e204fe00bda3e25c47e95d2203b4d2854095",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_226fd693",
+        "filename": "sepolicy/file_contexts",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-13T20:32:55Z",
+      "side": 1,
+      "message": "not that its a huge deal, but i wonder if you can use a wildcard in here\n\n/sys/devices/system/cpu/cpu(.*)/cpufreq/scaling_max_freq",
+      "revId": "9793e204fe00bda3e25c47e95d2203b4d2854095",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_826cca9d",
+        "filename": "sepolicy/genfs_contexts",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-13T20:32:55Z",
+      "side": 1,
+      "message": "this seems weird",
+      "revId": "9793e204fe00bda3e25c47e95d2203b4d2854095",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
