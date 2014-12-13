@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "7aa08908_02d1facd",
+        "filename": "sepolicy/file_contexts",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 7874
+      },
+      "writtenOn": "2014-12-13T22:59:32Z",
+      "side": 1,
+      "message": "it should be already covered by the wildcard in external/sepolicy, but its not working, and iirc this does solve",
+      "parentUuid": "7aa08908_226fd693",
+      "revId": "9793e204fe00bda3e25c47e95d2203b4d2854095",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7aa08908_826cca9d",
         "filename": "sepolicy/genfs_contexts",
         "patchSetId": 10
@@ -47,6 +65,24 @@
       "writtenOn": "2014-12-13T20:32:55Z",
       "side": 1,
       "message": "this seems weird",
+      "revId": "9793e204fe00bda3e25c47e95d2203b4d2854095",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_e2d5ceb9",
+        "filename": "sepolicy/genfs_contexts",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7874
+      },
+      "writtenOn": "2014-12-13T22:59:32Z",
+      "side": 1,
+      "message": "straight from your msm8960",
+      "parentUuid": "7aa08908_826cca9d",
       "revId": "9793e204fe00bda3e25c47e95d2203b4d2854095",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
