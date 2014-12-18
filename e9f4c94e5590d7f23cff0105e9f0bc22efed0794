@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_c51a4e17",
+        "filename": "sepolicy/file_contexts",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-12-18T21:17:00Z",
+      "side": 1,
+      "message": "should remove all these scaling freq lines and give thermal-engine this:\n\nallow thermal-engine sysfs:file write;\n\nthese hotplug so their context wont be set when they get created \u003d/",
+      "revId": "e9f4c94e5590d7f23cff0105e9f0bc22efed0794",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
