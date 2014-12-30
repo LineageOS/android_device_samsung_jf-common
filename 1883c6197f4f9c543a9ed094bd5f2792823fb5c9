@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_92acf5ee",
+        "filename": "jf-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2014-12-30T16:09:44Z",
+      "side": 1,
+      "message": "forgot \\",
+      "range": {
+        "startLine": 232,
+        "startChar": 34,
+        "endLine": 232,
+        "endChar": 38
+      },
+      "revId": "1883c6197f4f9c543a9ed094bd5f2792823fb5c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
