@@ -22,6 +22,24 @@
       "revId": "5500dde0e1de33f993c8afb21ba7db26af407fc7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_8d35f647",
+        "filename": "ril/telephony/java/com/android/internal/telephony/jflteRIL.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 506,
+      "author": {
+        "id": 7874
+      },
+      "writtenOn": "2014-12-31T12:05:45Z",
+      "side": 1,
+      "message": "I must be missing your point, because the symptom exists, and this change resolves it.\n\nlogcat shows an \"Ignoring call to \u0027getHardwareConfig\" with this change.\n\nSo what are you suggesting here?",
+      "parentUuid": "7aa08908_8de7b6e3",
+      "revId": "5500dde0e1de33f993c8afb21ba7db26af407fc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
