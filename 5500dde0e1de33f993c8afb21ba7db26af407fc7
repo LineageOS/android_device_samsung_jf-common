@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_8de7b6e3",
+        "filename": "ril/telephony/java/com/android/internal/telephony/jflteRIL.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 506,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2014-12-31T10:57:02Z",
+      "side": 1,
+      "message": "this doesn\u0027t have any call for gethardwareconfig()",
+      "range": {
+        "startLine": 506,
+        "startChar": 0,
+        "endLine": 506,
+        "endChar": 12
+      },
+      "revId": "5500dde0e1de33f993c8afb21ba7db26af407fc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
