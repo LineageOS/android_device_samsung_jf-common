@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_207f99ab",
+        "filename": "sepolicy/mediaserver.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-01-06T12:56:12Z",
+      "side": 1,
+      "message": "i imagine this should be:\n\n\nallow mediaserver gemini_device:chr_file { read write }; \n\n\n(without seeing the denial, chr_file might be wrong)",
+      "revId": "d0e2c2cbb3f59bfc432afad16f15b7dd6245b6f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
