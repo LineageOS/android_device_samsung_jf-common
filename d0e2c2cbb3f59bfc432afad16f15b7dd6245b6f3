@@ -16,6 +16,24 @@
       "revId": "d0e2c2cbb3f59bfc432afad16f15b7dd6245b6f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_bb09fe2e",
+        "filename": "sepolicy/mediaserver.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7874
+      },
+      "writtenOn": "2015-01-06T13:39:57Z",
+      "side": 1,
+      "message": "does that type already exist somewhere? i dont see it\n\ndefining the new type is where i was failing last night",
+      "parentUuid": "7aa08908_207f99ab",
+      "revId": "d0e2c2cbb3f59bfc432afad16f15b7dd6245b6f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
