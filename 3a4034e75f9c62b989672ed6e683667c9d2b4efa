@@ -16,6 +16,23 @@
       "revId": "3a4034e75f9c62b989672ed6e683667c9d2b4efa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_048636b9",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-04-06T15:23:21Z",
+      "side": 1,
+      "message": "There is no setup-makefiles in the jflteXXX trees, this would appear to be necessary... Something is wrong here.",
+      "revId": "3a4034e75f9c62b989672ed6e683667c9d2b4efa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
