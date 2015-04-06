@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ac371cc_e4d03acc",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-04-06T14:40:34Z",
+      "side": 1,
+      "message": "this line shouldn\u0027t be necessary",
+      "revId": "3a4034e75f9c62b989672ed6e683667c9d2b4efa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
