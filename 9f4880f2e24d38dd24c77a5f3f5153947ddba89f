@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_659382fb",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 10147
+      },
+      "writtenOn": "2015-05-05T19:41:42Z",
+      "side": 1,
+      "message": "Wrong chip type",
+      "revId": "9f4880f2e24d38dd24c77a5f3f5153947ddba89f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
