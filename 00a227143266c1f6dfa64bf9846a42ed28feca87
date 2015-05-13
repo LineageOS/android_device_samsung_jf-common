@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_b2ef81af",
+        "filename": "rootdir/etc/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-05-13T02:47:44Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 18,
+        "startChar": 178,
+        "endLine": 18,
+        "endChar": 180
+      },
+      "revId": "00a227143266c1f6dfa64bf9846a42ed28feca87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
