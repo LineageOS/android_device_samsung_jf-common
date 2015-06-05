@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_0c8d7531",
+        "filename": "camera/CameraWrapper.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-06-05T04:45:44Z",
+      "side": 1,
+      "message": "maybe we should just ifdef the entire array. would make it easier to read",
+      "revId": "791a5f5eac9759e57286d4f9f10da3d0e25162e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
