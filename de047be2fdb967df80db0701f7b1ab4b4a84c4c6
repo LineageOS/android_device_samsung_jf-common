@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f0e0f27_23dc3573",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2015-08-07T08:14:01Z",
+      "side": 1,
+      "message": "All the return carriages, ahh my eyes",
+      "revId": "de047be2fdb967df80db0701f7b1ab4b4a84c4c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
