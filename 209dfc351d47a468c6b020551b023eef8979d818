@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f0e0f27_2340b535",
+        "filename": "ril/telephony/java/com/android/internal/telephony/jflteRIL.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 415,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2015-08-07T06:41:12Z",
+      "side": 1,
+      "message": "le space du white",
+      "range": {
+        "startLine": 415,
+        "startChar": 12,
+        "endLine": 415,
+        "endChar": 16
+      },
+      "revId": "209dfc351d47a468c6b020551b023eef8979d818",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
