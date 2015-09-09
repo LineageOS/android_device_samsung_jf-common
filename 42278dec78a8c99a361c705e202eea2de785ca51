@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_81008436",
+        "filename": "power/power.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2015-09-09T11:57:59Z",
+      "side": 1,
+      "message": "Remove the unused function? And the commented call below.",
+      "revId": "42278dec78a8c99a361c705e202eea2de785ca51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_61fd6839",
+        "filename": "power/power.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2015-09-09T11:57:59Z",
+      "side": 1,
+      "message": "You may want to handle LOW_POWER hint and the left out VIDEO_ENCODE/DECODE hints just for battery\u0027s sake.",
+      "revId": "42278dec78a8c99a361c705e202eea2de785ca51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_a1038042",
+        "filename": "power/power.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2015-09-09T11:57:59Z",
+      "side": 1,
+      "message": "I don\u0027t think this does anything. Calls for interaction boosts don\u0027t send any duration. If you want interaction boosts, you have to set your own duration.",
+      "revId": "42278dec78a8c99a361c705e202eea2de785ca51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
