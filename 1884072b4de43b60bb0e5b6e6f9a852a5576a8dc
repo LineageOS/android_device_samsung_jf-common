@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_4c2bc393",
+        "filename": "gps/etc/gps.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-09-10T01:32:02Z",
+      "side": 1,
+      "message": "what\u0027s with the comment?",
+      "range": {
+        "startLine": 76,
+        "startChar": 24,
+        "endLine": 76,
+        "endChar": 25
+      },
+      "revId": "1884072b4de43b60bb0e5b6e6f9a852a5576a8dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
