@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_78d775c1",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2015-10-15T14:26:09Z",
+      "side": 1,
+      "message": "why not set the scheduler under enable-low-power?",
+      "revId": "9615c432a5727ab2fad97512e1d1701871bd19b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f287b81_98da21e7",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2015-10-15T14:26:09Z",
+      "side": 1,
+      "message": "balanced profile is pretty much already set during enable-low-power, isn\u0027t this redundant?",
+      "revId": "9615c432a5727ab2fad97512e1d1701871bd19b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
