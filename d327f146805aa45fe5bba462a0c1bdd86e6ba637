@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_2704467b",
+        "filename": "jf-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2015-10-21T12:22:12Z",
+      "side": 1,
+      "message": "\u0027ro.vendor.extension_library\u003dlibqti-perfd-client.so\u0027 is enough.\n\nhttps://www.codeaurora.org/cgit/quic/la/device/qcom/common/commit/common.mk?h\u003dLA.AF.1.1_rb1.18\u0026id\u003d142ade1f6aebe494818053d8f759e14467a4b3e1",
+      "revId": "d327f146805aa45fe5bba462a0c1bdd86e6ba637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
