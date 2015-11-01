@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f3283f1_6c047bc7",
+        "filename": "sepolicy/init.te",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7874
+      },
+      "writtenOn": "2015-11-01T10:19:27Z",
+      "side": 1,
+      "message": "probably doesnt belong in jf",
+      "range": {
+        "startLine": 3,
+        "startChar": 11,
+        "endLine": 3,
+        "endChar": 22
+      },
+      "revId": "d6460cfcf2c09b59eac2ea70a8e173b7e447078d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
