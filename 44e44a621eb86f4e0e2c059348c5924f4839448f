@@ -16,6 +16,24 @@
       "revId": "44e44a621eb86f4e0e2c059348c5924f4839448f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f2f7f8d_8d2af8e4",
+        "filename": "overlay/vendor/cmsdk/cm/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-11-04T21:13:13Z",
+      "side": 1,
+      "message": "mf\n\nthanks for the heads up",
+      "parentUuid": "1f2f7f8d_cdd92023",
+      "revId": "44e44a621eb86f4e0e2c059348c5924f4839448f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
