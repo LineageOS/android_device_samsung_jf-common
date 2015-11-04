@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_cdd92023",
+        "filename": "overlay/vendor/cmsdk/cm/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-11-04T20:50:47Z",
+      "side": 1,
+      "message": "This is deprecated, only powerhal profiles are supported now",
+      "revId": "44e44a621eb86f4e0e2c059348c5924f4839448f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
