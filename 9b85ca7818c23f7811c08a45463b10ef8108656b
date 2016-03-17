@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_ec65dfe2",
+        "filename": "include/hardware_legacy/AudioSystemLegacy.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2016-03-17T16:27:49Z",
+      "side": 1,
+      "message": "this doesn\u0027t exist in the common header",
+      "range": {
+        "startLine": 256,
+        "startChar": 8,
+        "endLine": 256,
+        "endChar": 24
+      },
+      "revId": "9b85ca7818c23f7811c08a45463b10ef8108656b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
