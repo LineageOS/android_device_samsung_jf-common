@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_caf8b1c5",
+        "filename": "jf-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 14143
+      },
+      "writtenOn": "2016-05-13T12:19:15Z",
+      "side": 1,
+      "message": "duplicated prop",
+      "range": {
+        "startLine": 218,
+        "startChar": 4,
+        "endLine": 218,
+        "endChar": 36
+      },
+      "revId": "4a9ce3afc8c0c4fcabf72166bb3888bdffd4ccfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
