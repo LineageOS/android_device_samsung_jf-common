@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_cd8e3d78",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 18
+      },
+      "lineNbr": 357,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-06-14T03:45:35Z",
+      "side": 1,
+      "message": "Oh, I removed this in last patch-set, because I put it here by error. Original snd_soc mixer doesn\u0027t have \"VEQ Enable\" here, only in voice-speaker mixers.\n\nAlso, I\u0027m not sure adding id will make any difference.",
+      "revId": "a0e4528d4c5df124d6f8942fb24effb0bad59815",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
