@@ -16,6 +16,24 @@
       "revId": "36951cf8258e558f24b8f74df4cf9c91a26c7ee9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_0133b0f7",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 22
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2016-06-21T13:20:26Z",
+      "side": 1,
+      "message": "http://review.cyanogenmod.org/#/c/149065/",
+      "parentUuid": "5faad753_e12e9490",
+      "revId": "36951cf8258e558f24b8f74df4cf9c91a26c7ee9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
