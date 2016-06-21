@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_e12e9490",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 22
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-06-21T12:59:05Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be necessary; it is only needed when BOARD_USES_LEGACY_ALSA_AUDIO \u003d\u003d true.",
+      "revId": "36951cf8258e558f24b8f74df4cf9c91a26c7ee9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
