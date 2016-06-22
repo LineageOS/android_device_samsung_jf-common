@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_93ce15b2",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-06-22T20:27:55Z",
+      "side": 1,
+      "message": "you might check the range on ADC# Volume as well. I saw only 0-3 as the range on m7.",
+      "revId": "7dbc469b03bbe58186f3b95186082e95d1db0ace",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
