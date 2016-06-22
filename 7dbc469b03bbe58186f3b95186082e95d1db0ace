@@ -16,6 +16,24 @@
       "revId": "7dbc469b03bbe58186f3b95186082e95d1db0ace",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_b338f19f",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-06-22T20:38:45Z",
+      "side": 1,
+      "message": "Yeah, I\u0027ll go through them all.",
+      "parentUuid": "5faad753_93ce15b2",
+      "revId": "7dbc469b03bbe58186f3b95186082e95d1db0ace",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
