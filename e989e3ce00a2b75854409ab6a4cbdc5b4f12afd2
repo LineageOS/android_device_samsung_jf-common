@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_c27a1187",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 14454
+      },
+      "writtenOn": "2016-07-11T21:07:04Z",
+      "side": 1,
+      "message": "This and the voip-call. Shouldn\u0027t it be \"voice-call bt-sco\"",
+      "range": {
+        "startLine": 247,
+        "startChar": 8,
+        "endLine": 247,
+        "endChar": 41
+      },
+      "revId": "e989e3ce00a2b75854409ab6a4cbdc5b4f12afd2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_626f9dc5",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 14454
+      },
+      "writtenOn": "2016-07-11T21:07:04Z",
+      "side": 1,
+      "message": "This and the above voice call were probably causing the segfault. \"voip-call bt-sco\" here?",
+      "range": {
+        "startLine": 262,
+        "startChar": 8,
+        "endLine": 262,
+        "endChar": 40
+      },
+      "revId": "e989e3ce00a2b75854409ab6a4cbdc5b4f12afd2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
