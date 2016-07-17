@@ -22,6 +22,41 @@
       "revId": "4a934ae63b8a27fdcd4eb5fa34b2c50be78cc7c4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_08c92077",
+        "filename": "camera/CameraWrapper.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-07-17T02:23:45Z",
+      "side": 1,
+      "message": "I\u0027ll take a look at it soon. From what the HAL spews though, HDR isn\u0027t being advertised for the front camera.",
+      "parentUuid": "3fa7e38b_a8ba4cdb",
+      "revId": "4a934ae63b8a27fdcd4eb5fa34b2c50be78cc7c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_28c65c69",
+        "filename": "camera/CameraWrapper.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-07-17T02:23:45Z",
+      "side": 1,
+      "message": "Do you know what this parameter does? \"camera-mode\"",
+      "revId": "4a934ae63b8a27fdcd4eb5fa34b2c50be78cc7c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
