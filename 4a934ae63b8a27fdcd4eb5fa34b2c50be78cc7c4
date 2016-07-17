@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_a8ba4cdb",
+        "filename": "camera/CameraWrapper.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 7874
+      },
+      "writtenOn": "2016-07-17T01:56:56Z",
+      "side": 1,
+      "message": "fwiw, i think i intended to do the same on front cam, but the scene modes are different between front and rear cams, and i never obtained a list of stock scene modes for front.\n\nHDR does nothing without framework hax and used to be a common \"issue\" reported on jf",
+      "range": {
+        "startLine": 114,
+        "startChar": 47,
+        "endLine": 114,
+        "endChar": 50
+      },
+      "revId": "4a934ae63b8a27fdcd4eb5fa34b2c50be78cc7c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
