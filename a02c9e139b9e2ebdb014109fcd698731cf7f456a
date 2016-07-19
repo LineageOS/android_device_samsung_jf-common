@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_ba036b42",
+        "filename": "camera/CameraWrapper.cpp",
+        "patchSetId": 8
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 14088
+      },
+      "writtenOn": "2016-07-19T13:16:55Z",
+      "side": 0,
+      "message": "does the zsl not to be set anymore?",
+      "range": {
+        "startLine": 167,
+        "startChar": 4,
+        "endLine": 167,
+        "endChar": 66
+      },
+      "revId": "a02c9e139b9e2ebdb014109fcd698731cf7f456a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
