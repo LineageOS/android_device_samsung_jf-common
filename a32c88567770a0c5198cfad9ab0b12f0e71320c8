@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_fa1238b1",
+        "filename": "system.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 8084
+      },
+      "writtenOn": "2016-07-22T21:59:34Z",
+      "side": 1,
+      "message": "a question, this is still necessary?",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 30
+      },
+      "revId": "a32c88567770a0c5198cfad9ab0b12f0e71320c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
