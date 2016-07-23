@@ -22,6 +22,24 @@
       "revId": "a32c88567770a0c5198cfad9ab0b12f0e71320c8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_b51e110a",
+        "filename": "system.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-07-23T09:46:16Z",
+      "side": 1,
+      "message": "Probably not, but I don\u0027t really wanna sneakily remove it just in case.",
+      "parentUuid": "3fa7e38b_fa1238b1",
+      "revId": "a32c88567770a0c5198cfad9ab0b12f0e71320c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
