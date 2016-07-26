@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_e080428e",
+        "filename": "audio/audio_effects.conf",
+        "patchSetId": 24
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-07-26T20:38:08Z",
+      "side": 1,
+      "message": "newline",
+      "revId": "8b71312cbec637f1268c93c85f2b77d80c5e1763",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_40ad962f",
+        "filename": "audio/audio_policy.conf",
+        "patchSetId": 24
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-07-26T20:38:08Z",
+      "side": 1,
+      "message": "I think this can be merged with the primary block",
+      "revId": "8b71312cbec637f1268c93c85f2b77d80c5e1763",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
