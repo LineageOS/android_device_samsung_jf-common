@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_53679226",
+        "filename": "rootdir/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-08-09T22:46:37Z",
+      "side": 1,
+      "message": "I think it should be TARGET_RECOVERY_ROOT_OUT",
+      "revId": "85580a06e41e3d3a6eb56152dd47337ef254e2b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
