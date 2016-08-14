@@ -16,6 +16,24 @@
       "revId": "832622d4c2e24e9ddd49987fa0b700baff9f5b14",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_579a7cc5",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-08-14T15:28:39Z",
+      "side": 1,
+      "message": "\"VR Main Mic\" mixers from stock. We use the same mixers for SND_DEVICE_IN_VOICE_REC_DMIC_STEREO and SND_DEVICE_IN_VOICE_REC_MIC",
+      "parentUuid": "1fa4df85_6c2faff6",
+      "revId": "832622d4c2e24e9ddd49987fa0b700baff9f5b14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

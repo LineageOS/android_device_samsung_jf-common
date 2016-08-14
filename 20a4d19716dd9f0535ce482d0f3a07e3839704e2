@@ -16,6 +16,24 @@
       "revId": "20a4d19716dd9f0535ce482d0f3a07e3839704e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_37a900df",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-08-14T15:28:39Z",
+      "side": 0,
+      "message": "The ACDB id is already defined for this.",
+      "parentUuid": "1fa4df85_0c34fb49",
+      "revId": "20a4d19716dd9f0535ce482d0f3a07e3839704e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
