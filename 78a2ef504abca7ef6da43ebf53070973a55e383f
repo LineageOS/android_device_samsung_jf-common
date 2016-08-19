@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1fa4df85_7574469a",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-08-19T03:35:42Z",
+      "side": 1,
+      "message": "But tinymix \"EAR PA GAIN\" probably says that POS_6_DB is the default.",
+      "parentUuid": "1fa4df85_9575429b",
+      "revId": "78a2ef504abca7ef6da43ebf53070973a55e383f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1fa4df85_d5497a60",
         "filename": "audio/mixer_paths.xml",
         "patchSetId": 3
