@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_952d4248",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 14143
+      },
+      "writtenOn": "2016-08-19T08:42:53Z",
+      "side": 1,
+      "message": "duplicate of line 50",
+      "revId": "5762ec353e472ac1d6e97b6a552fd9b8a83d405f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
