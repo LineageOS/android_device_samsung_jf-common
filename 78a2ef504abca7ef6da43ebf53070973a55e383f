@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1fa4df85_f58d967b",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-08-19T06:26:08Z",
+      "side": 1,
+      "message": "Weirdly enough, stock sets this as ZERO.",
+      "parentUuid": "1fa4df85_7574469a",
+      "revId": "78a2ef504abca7ef6da43ebf53070973a55e383f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1fa4df85_d5497a60",
         "filename": "audio/mixer_paths.xml",
         "patchSetId": 3
