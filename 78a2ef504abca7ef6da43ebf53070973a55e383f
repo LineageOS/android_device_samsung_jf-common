@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_9575429b",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-08-19T03:27:45Z",
+      "side": 1,
+      "message": "Should probably be POS_0_DB\n\nYou can ref HLTE, which is somewhat similar\nhttps://github.com/CyanogenMod/android_device_samsung_hlte-common/blob/cm-13.0/audio/mixer_paths.xml",
+      "revId": "78a2ef504abca7ef6da43ebf53070973a55e383f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_d5497a60",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-08-19T03:27:45Z",
+      "side": 1,
+      "message": "Defined further up",
+      "revId": "78a2ef504abca7ef6da43ebf53070973a55e383f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_f546f64f",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-08-19T03:27:45Z",
+      "side": 1,
+      "message": "ZERO\n\nAlso defined further up",
+      "revId": "78a2ef504abca7ef6da43ebf53070973a55e383f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_b57abe85",
+        "filename": "audio/mixer_paths.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-08-19T03:27:45Z",
+      "side": 1,
+      "message": "I don\u0027t think this usecase is used for voice calls, only recording from what I can gather from the source. That\u0027s why I didn\u0027t add these call specific mixers.",
+      "revId": "78a2ef504abca7ef6da43ebf53070973a55e383f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
