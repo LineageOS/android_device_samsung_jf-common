@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_49409308",
+        "filename": "audio/audio_platform_info.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-08-20T12:24:06Z",
+      "side": 1,
+      "message": "Usecases like recording audio using the in-built Sound Recorder show that this should be 54. Same goes for HANDSET_MIC.",
+      "revId": "e9edbecb24005262ace8f34aee594af39d988c96",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
