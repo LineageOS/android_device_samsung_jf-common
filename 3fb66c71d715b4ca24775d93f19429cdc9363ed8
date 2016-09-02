@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_857debb2",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2016-09-02T04:22:16Z",
+      "side": 1,
+      "message": "This is not working in CM14. Use something like this for now:\n\nexport LD_PRELOAD \"/system/lib/libril_shim.so\"",
+      "revId": "3fb66c71d715b4ca24775d93f19429cdc9363ed8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
