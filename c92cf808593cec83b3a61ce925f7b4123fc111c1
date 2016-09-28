@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_5378d4c2",
+        "filename": "sepolicy/netmgrd.te",
+        "patchSetId": 41
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13728
+      },
+      "writtenOn": "2016-09-28T02:27:16Z",
+      "side": 1,
+      "message": "https://github.com/CyanogenMod/android_device_qcom_sepolicy/commit/0b70d2a removed this. But in cm-14.0, mobile data doesn\u0027t work without this.",
+      "revId": "c92cf808593cec83b3a61ce925f7b4123fc111c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
