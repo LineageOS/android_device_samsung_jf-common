@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_d9c89423",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-18T02:27:34Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this live under \"Partitions\"?",
+      "revId": "a50c720d2deb78a1c7fa5e50384fb73fab0ed47b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
