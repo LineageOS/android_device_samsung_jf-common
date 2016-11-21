@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_ba2c93ac",
+        "filename": "overlay/vendor/cmsdk/cm/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-11-21T21:36:19Z",
+      "side": 1,
+      "message": "On CM overlay, this is:\n\n         LIGHTS_RGB_LED \u003d 0\n         LIGHTS_MULTIPLE_LED \u003d 1\n         LIGHTS_LED_PULSE \u003d 2\n         LIGHTS_SEGMENTED_LED \u003d 3\n         LIGHTS_ADJUSTABLE_LED_BRIGHTNESS \u003d 4",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 45
+      },
+      "revId": "c9fcd4f85514578c4f9434c355cca69af3546832",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
