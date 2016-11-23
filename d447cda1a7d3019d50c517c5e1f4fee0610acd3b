@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_78aa9d85",
+        "filename": "overlay/vendor/cmsdk/cm/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-23T13:22:11Z",
+      "side": 1,
+      "message": "This whole chunk of comments will be removed in a later patchset.",
+      "range": {
+        "startLine": 18,
+        "startChar": 80,
+        "endLine": 26,
+        "endChar": 92
+      },
+      "revId": "d447cda1a7d3019d50c517c5e1f4fee0610acd3b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
