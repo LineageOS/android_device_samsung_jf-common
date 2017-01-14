@@ -92,6 +92,9 @@ PRODUCT_PACKAGES += \
     Snap \
     camera.msm8960
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera2.portability.force_api=1
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8960 \
