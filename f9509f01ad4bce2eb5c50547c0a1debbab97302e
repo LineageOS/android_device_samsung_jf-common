@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_f7d70fbe",
+        "filename": "jf-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2017-01-17T12:27:59Z",
+      "side": 1,
+      "message": "I don\u0027t think that does anything now.",
+      "range": {
+        "startLine": 95,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 35
+      },
+      "revId": "f9509f01ad4bce2eb5c50547c0a1debbab97302e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
