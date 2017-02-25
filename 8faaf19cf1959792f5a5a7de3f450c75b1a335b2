@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_6637d2e4",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-02-25T14:19:36Z",
+      "side": 0,
+      "message": "if this isn\u0027t still needed, we should remove it",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 21
+      },
+      "revId": "8faaf19cf1959792f5a5a7de3f450c75b1a335b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
