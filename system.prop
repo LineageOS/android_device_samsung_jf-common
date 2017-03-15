@@ -52,6 +52,9 @@ persist.radio.fill_eons=1
 persist.radio.use_se_table_only=1
 ro.telephony.mms_data_profile=5
 
+# Tethering
+net.tethering.noprovisioning=true
+
 # Time
 persist.timed.enable=true
 
