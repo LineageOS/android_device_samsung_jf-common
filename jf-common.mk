@@ -174,6 +174,10 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     power.msm8960
+    
+PRODUCT_PACKAGES += \
+    e2fsck_static \
+    resize2fs_static
 
 # Ramdisk
 PRODUCT_PACKAGES += \
