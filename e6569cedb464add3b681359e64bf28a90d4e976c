@@ -68,6 +68,52 @@
       "revId": "e6569cedb464add3b681359e64bf28a90d4e976c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_554b592b",
+        "filename": "jf-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 14088
+      },
+      "writtenOn": "2017-03-23T11:34:11Z",
+      "side": 1,
+      "message": "does this belong to power? where is the title?",
+      "range": {
+        "startLine": 178,
+        "startChar": 0,
+        "endLine": 180,
+        "endChar": 20
+      },
+      "revId": "e6569cedb464add3b681359e64bf28a90d4e976c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_75465d25",
+        "filename": "releasetools/releasetools.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 14088
+      },
+      "writtenOn": "2017-03-23T11:34:11Z",
+      "side": 1,
+      "message": "lineage 2017 is missing",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 49
+      },
+      "revId": "e6569cedb464add3b681359e64bf28a90d4e976c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
