@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_5595993e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-03-23T12:28:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_d53749af",
+      "range": {
+        "startLine": 7,
+        "startChar": 18,
+        "endLine": 7,
+        "endChar": 27
+      },
+      "revId": "e6569cedb464add3b681359e64bf28a90d4e976c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_15be0100",
         "filename": "BoardConfigCommon.mk",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2017-03-23T11:28:32Z",
       "side": 1,
       "message": "whitespace",
+      "range": {
+        "startLine": 122,
+        "startChar": 61,
+        "endLine": 122,
+        "endChar": 62
+      },
+      "revId": "e6569cedb464add3b681359e64bf28a90d4e976c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_35922558",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-03-23T12:28:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_15be0100",
       "range": {
         "startLine": 122,
         "startChar": 61,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_159f2161",
+        "filename": "jf-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-03-23T12:28:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_f5ba4d09",
+      "range": {
+        "startLine": 177,
+        "startChar": 0,
+        "endLine": 177,
+        "endChar": 4
+      },
+      "revId": "e6569cedb464add3b681359e64bf28a90d4e976c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_554b592b",
         "filename": "jf-common.mk",
         "patchSetId": 2
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_f59b6d70",
+        "filename": "jf-common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-03-23T12:28:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_554b592b",
+      "range": {
+        "startLine": 178,
+        "startChar": 0,
+        "endLine": 180,
+        "endChar": 20
+      },
+      "revId": "e6569cedb464add3b681359e64bf28a90d4e976c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_75465d25",
         "filename": "releasetools/releasetools.py",
         "patchSetId": 2
@@ -105,6 +201,30 @@
       "writtenOn": "2017-03-23T11:34:11Z",
       "side": 1,
       "message": "lineage 2017 is missing",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 49
+      },
+      "revId": "e6569cedb464add3b681359e64bf28a90d4e976c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_b58df533",
+        "filename": "releasetools/releasetools.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-03-23T12:28:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_75465d25",
       "range": {
         "startLine": 1,
         "startChar": 0,
