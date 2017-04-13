@@ -54,7 +54,7 @@ ro.telephony.ril_class=jflteRIL
 persist.timed.enable=true
 
 # Timeout failed shutdowns
-ro.build.shutdown_timeout=5
+ro.build.shutdown_timeout=3
 
 # WiFi
 wifi.interface=wlan0
