@@ -174,7 +174,7 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl-bcm \
     libnfc-nci \
     libnfc_nci_jni \
-    nfc_nci.bcm2079x.msm8960 \
+    nfc_nci.bcm2079x.default \
     NfcNci \
     Tag \
     com.android.nfc_extras
