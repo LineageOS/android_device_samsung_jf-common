@@ -212,6 +212,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
+<<<<<<< HEAD:jf-common.mk
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
@@ -220,6 +221,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_atomic
 
+=======
+>>>>>>> 1a4f7eb... WIP: RIL: drop prebuilt rild and libril:device.mk
 # SPN override
 PRODUCT_COPY_FILES += \
     device/samsung/jf-common/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
