@@ -27,6 +27,8 @@
 
 COMMON_PATH := device/samsung/jf-common
 
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/jf-common/include
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8960
 
@@ -129,6 +131,10 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
+
+# RIL
+BOARD_PROVIDES_LIBRIL := true
+BOARD_RIL_CLASS := $(COMMON_PATH)/ril
 
 # SDClang
 TARGET_USE_SDCLANG := true
