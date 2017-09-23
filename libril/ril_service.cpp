@@ -7012,12 +7012,37 @@ int radio::nitzTimeReceivedInd(int slotId,
 void convertRilSignalStrengthToHalV5(void *response, size_t responseLen,
         SignalStrength& signalStrength) {
     RIL_SignalStrength_v5 *rilSignalStrength = (RIL_SignalStrength_v5 *) response;
+    int gsmSignalStrength;
+    int cdmaDbm;
+    int evdoDbm;
 
-    signalStrength.gw.signalStrength = rilSignalStrength->GW_SignalStrength.signalStrength;
+    gsmSignalStrength = rilSignalStrength->GW_SignalStrength.signalStrength & 0xFF;
+
+        if (gsmSignalStrength < 0) {
+            gsmSignalStrength = 99;
+        } else if (gsmSignalStrength > 31 && gsmSignalStrength != 99) {
+            gsmSignalStrength = 31;
+        }
+
+        cdmaDbm = rilSignalStrength->CDMA_SignalStrength.dbm & 0xFF;
+        if (cdmaDbm < 0) {
+            cdmaDbm = 99;
+        } else if (cdmaDbm > 31 && cdmaDbm != 99) {
+            cdmaDbm = 31;
+        }
+
+        evdoDbm = rilSignalStrength->EVDO_SignalStrength.dbm & 0xFF;
+        if (evdoDbm < 0) {
+            evdoDbm = 99;
+        } else if (evdoDbm > 31 && evdoDbm != 99) {
+            evdoDbm = 31;
+        }
+
+    signalStrength.gw.signalStrength = gsmSignalStrength;
     signalStrength.gw.bitErrorRate = rilSignalStrength->GW_SignalStrength.bitErrorRate;
-    signalStrength.cdma.dbm = rilSignalStrength->CDMA_SignalStrength.dbm;
+    signalStrength.cdma.dbm = cdmaDbm;
     signalStrength.cdma.ecio = rilSignalStrength->CDMA_SignalStrength.ecio;
-    signalStrength.evdo.dbm = rilSignalStrength->EVDO_SignalStrength.dbm;
+    signalStrength.evdo.dbm = evdoDbm;
     signalStrength.evdo.ecio = rilSignalStrength->EVDO_SignalStrength.ecio;
     signalStrength.evdo.signalNoiseRatio =
             rilSignalStrength->EVDO_SignalStrength.signalNoiseRatio;
@@ -7033,6 +7058,31 @@ void convertRilSignalStrengthToHalV5(void *response, size_t responseLen,
 void convertRilSignalStrengthToHalV6(void *response, size_t responseLen,
         SignalStrength& signalStrength) {
     RIL_SignalStrength_v6 *rilSignalStrength = (RIL_SignalStrength_v6 *) response;
+    int gsmSignalStrength;
+    int cdmaDbm;
+    int evdoDbm;
+
+    gsmSignalStrength = rilSignalStrength->GW_SignalStrength.signalStrength & 0xFF;
+
+        if (gsmSignalStrength < 0) {
+            gsmSignalStrength = 99;
+        } else if (gsmSignalStrength > 31 && gsmSignalStrength != 99) {
+            gsmSignalStrength = 31;
+        }
+
+        cdmaDbm = rilSignalStrength->CDMA_SignalStrength.dbm & 0xFF;
+        if (cdmaDbm < 0) {
+            cdmaDbm = 99;
+        } else if (cdmaDbm > 31 && cdmaDbm != 99) {
+            cdmaDbm = 31;
+        }
+
+        evdoDbm = rilSignalStrength->EVDO_SignalStrength.dbm & 0xFF;
+        if (evdoDbm < 0) {
+            evdoDbm = 99;
+        } else if (evdoDbm > 31 && evdoDbm != 99) {
+            evdoDbm = 31;
+        }
 
     // Fixup LTE for backwards compatibility
     // signalStrength: -1 -> 99
@@ -7056,11 +7106,11 @@ void convertRilSignalStrengthToHalV6(void *response, size_t responseLen,
         rilSignalStrength->LTE_SignalStrength.cqi = INT_MAX;
     }
 
-    signalStrength.gw.signalStrength = rilSignalStrength->GW_SignalStrength.signalStrength;
+    signalStrength.gw.signalStrength = gsmSignalStrength;
     signalStrength.gw.bitErrorRate = rilSignalStrength->GW_SignalStrength.bitErrorRate;
-    signalStrength.cdma.dbm = rilSignalStrength->CDMA_SignalStrength.dbm;
+    signalStrength.cdma.dbm = cdmaDbm;
     signalStrength.cdma.ecio = rilSignalStrength->CDMA_SignalStrength.ecio;
-    signalStrength.evdo.dbm = rilSignalStrength->EVDO_SignalStrength.dbm;
+    signalStrength.evdo.dbm = evdoDbm;
     signalStrength.evdo.ecio = rilSignalStrength->EVDO_SignalStrength.ecio;
     signalStrength.evdo.signalNoiseRatio =
             rilSignalStrength->EVDO_SignalStrength.signalNoiseRatio;
@@ -7076,6 +7126,31 @@ void convertRilSignalStrengthToHalV6(void *response, size_t responseLen,
 void convertRilSignalStrengthToHalV8(void *response, size_t responseLen,
         SignalStrength& signalStrength) {
     RIL_SignalStrength_v8 *rilSignalStrength = (RIL_SignalStrength_v8 *) response;
+    int gsmSignalStrength;
+    int cdmaDbm;
+    int evdoDbm;
+
+    gsmSignalStrength = rilSignalStrength->GW_SignalStrength.signalStrength & 0xFF;
+
+        if (gsmSignalStrength < 0) {
+            gsmSignalStrength = 99;
+        } else if (gsmSignalStrength > 31 && gsmSignalStrength != 99) {
+            gsmSignalStrength = 31;
+        }
+
+        cdmaDbm = rilSignalStrength->CDMA_SignalStrength.dbm & 0xFF;
+        if (cdmaDbm < 0) {
+            cdmaDbm = 99;
+        } else if (cdmaDbm > 31 && cdmaDbm != 99) {
+            cdmaDbm = 31;
+        }
+
+        evdoDbm = rilSignalStrength->EVDO_SignalStrength.dbm & 0xFF;
+        if (evdoDbm < 0) {
+            evdoDbm = 99;
+        } else if (evdoDbm > 31 && evdoDbm != 99) {
+            evdoDbm = 31;
+        }
 
     // Fixup LTE for backwards compatibility
     // signalStrength: -1 -> 99
@@ -7099,11 +7174,11 @@ void convertRilSignalStrengthToHalV8(void *response, size_t responseLen,
         rilSignalStrength->LTE_SignalStrength.cqi = INT_MAX;
     }
 
-    signalStrength.gw.signalStrength = rilSignalStrength->GW_SignalStrength.signalStrength;
+    signalStrength.gw.signalStrength = gsmSignalStrength;
     signalStrength.gw.bitErrorRate = rilSignalStrength->GW_SignalStrength.bitErrorRate;
-    signalStrength.cdma.dbm = rilSignalStrength->CDMA_SignalStrength.dbm;
+    signalStrength.cdma.dbm = cdmaDbm;
     signalStrength.cdma.ecio = rilSignalStrength->CDMA_SignalStrength.ecio;
-    signalStrength.evdo.dbm = rilSignalStrength->EVDO_SignalStrength.dbm;
+    signalStrength.evdo.dbm = evdoDbm;
     signalStrength.evdo.ecio = rilSignalStrength->EVDO_SignalStrength.ecio;
     signalStrength.evdo.signalNoiseRatio =
             rilSignalStrength->EVDO_SignalStrength.signalNoiseRatio;
@@ -7119,6 +7194,31 @@ void convertRilSignalStrengthToHalV8(void *response, size_t responseLen,
 void convertRilSignalStrengthToHalV10(void *response, size_t responseLen,
         SignalStrength& signalStrength) {
     RIL_SignalStrength_v10 *rilSignalStrength = (RIL_SignalStrength_v10 *) response;
+    int gsmSignalStrength;
+    int cdmaDbm;
+    int evdoDbm;
+
+    gsmSignalStrength = rilSignalStrength->GW_SignalStrength.signalStrength & 0xFF;
+
+        if (gsmSignalStrength < 0) {
+            gsmSignalStrength = 99;
+        } else if (gsmSignalStrength > 31 && gsmSignalStrength != 99) {
+            gsmSignalStrength = 31;
+        }
+
+        cdmaDbm = rilSignalStrength->CDMA_SignalStrength.dbm & 0xFF;
+        if (cdmaDbm < 0) {
+            cdmaDbm = 99;
+        } else if (cdmaDbm > 31 && cdmaDbm != 99) {
+            cdmaDbm = 31;
+        }
+
+        evdoDbm = rilSignalStrength->EVDO_SignalStrength.dbm & 0xFF;
+        if (evdoDbm < 0) {
+            evdoDbm = 99;
+        } else if (evdoDbm > 31 && evdoDbm != 99) {
+            evdoDbm = 31;
+        }
 
     // Fixup LTE for backwards compatibility
     // signalStrength: -1 -> 99
@@ -7142,11 +7242,11 @@ void convertRilSignalStrengthToHalV10(void *response, size_t responseLen,
         rilSignalStrength->LTE_SignalStrength.cqi = INT_MAX;
     }
 
-    signalStrength.gw.signalStrength = rilSignalStrength->GW_SignalStrength.signalStrength;
+    signalStrength.gw.signalStrength = gsmSignalStrength;
     signalStrength.gw.bitErrorRate = rilSignalStrength->GW_SignalStrength.bitErrorRate;
-    signalStrength.cdma.dbm = rilSignalStrength->CDMA_SignalStrength.dbm;
+    signalStrength.cdma.dbm = cdmaDbm;
     signalStrength.cdma.ecio = rilSignalStrength->CDMA_SignalStrength.ecio;
-    signalStrength.evdo.dbm = rilSignalStrength->EVDO_SignalStrength.dbm;
+    signalStrength.evdo.dbm = evdoDbm;
     signalStrength.evdo.ecio = rilSignalStrength->EVDO_SignalStrength.ecio;
     signalStrength.evdo.signalNoiseRatio =
             rilSignalStrength->EVDO_SignalStrength.signalNoiseRatio;
