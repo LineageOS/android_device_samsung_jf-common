@@ -185,9 +185,9 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
-# RIL
+# Shims
 PRODUCT_PACKAGES += \
-    libshim_ril
+    libshim_atomic
 
 # SPN override
 PRODUCT_COPY_FILES += \
