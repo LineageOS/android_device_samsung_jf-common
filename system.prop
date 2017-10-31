@@ -13,6 +13,9 @@ use.voice.path.for.pcm.voip=false
 # Bluetooth
 ro.bt.bdaddr_path=/efs/bluetooth/bt_addr
 
+# Camera
+camera2.portability.force_api=1
+
 # Charger
 ro.enable_boot_charger_mode=1
 
