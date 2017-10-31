@@ -5,7 +5,7 @@ LOCAL_C_INCLUDES += \
     system/media/camera/include
 
 LOCAL_CLANG := false
-
+LOCAL_CFLAGS += -O
 LOCAL_SRC_FILES := \
     CameraWrapper.cpp
 
