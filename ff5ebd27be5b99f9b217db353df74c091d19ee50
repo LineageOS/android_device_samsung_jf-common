@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "f1277d3a_4f1580a8",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "As of 7.x still yeah.",
+      "parentUuid": "423d5a1b_49221f72",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "439e1a90_e549fb92",
         "filename": "twrp.mk",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2017-10-26T15:47:46Z",
       "side": 1,
       "message": "needed?",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "14136054_c29f51b7",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "Nope.",
+      "parentUuid": "439e1a90_e549fb92",
       "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "8ce2d8b3_603335d3",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "Nope.",
+      "parentUuid": "cad2b891_de2fbb74",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e898e720_72962144",
         "filename": "twrp.mk",
         "patchSetId": 4
@@ -64,6 +118,24 @@
       "writtenOn": "2017-10-26T15:47:46Z",
       "side": 1,
       "message": "needed?",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3e138025_8055ae76",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "Nope.",
+      "parentUuid": "e898e720_72962144",
       "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "d4ca84db_4640a621",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "Doesn\u0027t look like it.",
+      "parentUuid": "7191b8be_a0fe63f2",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "df9a3475_232afa28",
         "filename": "twrp.mk",
         "patchSetId": 4
@@ -98,6 +188,24 @@
       "writtenOn": "2017-10-26T15:47:46Z",
       "side": 1,
       "message": "uh? we use aosp crypto.",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cfc4639d_8bfaa027",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "We didn\u0027t when TWRP was brought up under cm-12.1, but we do now, so it isn\u0027t needed.",
+      "parentUuid": "df9a3475_232afa28",
       "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -155,6 +263,24 @@
     },
     {
       "key": {
+        "uuid": "b482cb7f_d7a98180",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "Yeah b/c we don\u0027t support encryption ofn f2fs as far as I know rn.",
+      "parentUuid": "6fec5bdb_bf6ac076",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "584b05af_a6a075dc",
         "filename": "twrp.mk",
         "patchSetId": 4
@@ -172,6 +298,24 @@
     },
     {
       "key": {
+        "uuid": "b0ebe7f4_945db539",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "It doesn\u0027t look like it is.",
+      "parentUuid": "584b05af_a6a075dc",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a98097a7_6ee76371",
         "filename": "twrp.mk",
         "patchSetId": 4
@@ -183,6 +327,24 @@
       "writtenOn": "2017-10-26T15:47:46Z",
       "side": 1,
       "message": "needed?",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3af40281_2a91d748",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2017-11-01T00:08:19Z",
+      "side": 1,
+      "message": "It doesn\u0027t look like it.",
+      "parentUuid": "a98097a7_6ee76371",
       "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
