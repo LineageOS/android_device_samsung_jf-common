@@ -37,6 +37,23 @@
     },
     {
       "key": {
+        "uuid": "5b268dc1_ed6086f8",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-11-01T00:15:50Z",
+      "side": 1,
+      "message": "Missed this one, does this set the TW_THEME flag? iirc this used to be a thing, but was deprecated",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "439e1a90_e549fb92",
         "filename": "twrp.mk",
         "patchSetId": 4
@@ -275,6 +292,24 @@
       "side": 1,
       "message": "Yeah b/c we don\u0027t support encryption ofn f2fs as far as I know rn.",
       "parentUuid": "6fec5bdb_bf6ac076",
+      "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a9b8dd8c_9709e407",
+        "filename": "twrp.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-11-01T00:15:50Z",
+      "side": 1,
+      "message": "That shouldn\u0027t be the case, if we support a filesystem, we should support encryption on it (since the rule is that encryption needs to be working for nightlies)",
+      "parentUuid": "b482cb7f_d7a98180",
       "revId": "ff5ebd27be5b99f9b217db353df74c091d19ee50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
