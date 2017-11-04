@@ -96,7 +96,7 @@ on post-fs-data
     mkdir /data/fota 0771 system system
 
     # Create directory for time-services
-    mkdir /data/time 0700 system system
+    mkdir /data/vendor/time 0700 system system
 
     # Create directories for WiFi
     mkdir /system/etc/wifi 0770 wifi wifi
