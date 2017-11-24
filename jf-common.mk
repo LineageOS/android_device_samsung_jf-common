@@ -176,6 +176,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8960
 
+# Radio
+PRODUCT_PACKAGES += \
+    libsecnativefeature
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -184,10 +188,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
-
-# RIL
-PRODUCT_PACKAGES += \
-    libshim_ril
 
 # SPN override
 PRODUCT_COPY_FILES += \
