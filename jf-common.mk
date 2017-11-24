@@ -185,10 +185,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
-# RIL
-PRODUCT_PACKAGES += \
-    libshim_ril
-
 # SPN override
 PRODUCT_COPY_FILES += \
     device/samsung/jf-common/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
