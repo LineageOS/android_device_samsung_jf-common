@@ -50,7 +50,6 @@ on fs
     symlink /dev/block/platform/${ro.boot.bootdevice} /dev/block/bootdevice
 
     mount_all fstab.qcom
-    setprop ro.product.name jgedlteue
 
 on post-fs-data
     # Create directories for tombstone
