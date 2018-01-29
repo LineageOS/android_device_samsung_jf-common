@@ -207,10 +207,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
-# RIL
-PRODUCT_PACKAGES += \
-    libshim_ril
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
