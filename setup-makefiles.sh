@@ -31,6 +31,8 @@ if [ ! -f "$HELPER" ]; then
 fi
 . "$HELPER"
 
+export DEVICE_COMMON=jf-common
+
 # Initialize the helper for common device
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$CM_ROOT" true
 
@@ -40,6 +42,15 @@ write_headers "jactivelte jflteatt jfltespr jfltetmo jfltevzw jfltexx jfltecan j
 write_makefiles "$MY_DIR"/common-proprietary-files.txt
 
 write_footers
+
+if [ "$DEVICE" == "jflteatt" ] ||
+		[ "$DEVICE" == "jfltecan" ] ||
+		[ "$DEVICE" == "jfltetmo" ] ||
+		[ "$DEVICE" == "jfltexx" ]; then
+    export BLOB_LOC=jf-gsm-common
+else
+    export BLOB_LOC=$DEVICE
+fi
 
 # Reinitialize the helper for device
 setup_vendor "$BLOB_LOC" "$VENDOR" "$CM_ROOT"
