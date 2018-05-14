@@ -82,7 +82,6 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcomvoiceprocessing \
     tinycap \
-    tinymix \
     tinypcminfo \
     tinyplay
 
