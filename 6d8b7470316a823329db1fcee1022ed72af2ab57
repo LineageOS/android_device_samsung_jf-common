@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d1d382e8_7f5ced29",
+        "filename": "overlay-lineage/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-07-09T20:08:10Z",
+      "side": 1,
+      "message": "missing \u003cresources\u003e here",
+      "revId": "6d8b7470316a823329db1fcee1022ed72af2ab57",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
