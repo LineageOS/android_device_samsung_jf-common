@@ -2,3 +2,6 @@ allow rild self:capability dac_override;
 allow rild proc_net:file write;
 allow rild ril_efs_file:file { getattr open read };
 allow rild system_app_data_file:dir search;
+
+# /data/data/com.android.providers.telephony/databases/telephony.db
+allow rild radio_data_file:lnk_file r_file_perms;
