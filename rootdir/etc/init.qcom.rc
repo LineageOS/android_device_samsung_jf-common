@@ -163,6 +163,9 @@ on early-boot
     setprop qcom.audio.init complete
 
 on boot
+    # Prevents permission denied error for telephony
+    chmod 0644 /proc/cmdline
+
     # Configure bluetooth
     chmod 0660 /proc/bluetooth/sleep/lpm
     chmod 0660 /proc/bluetooth/sleep/btwrite
