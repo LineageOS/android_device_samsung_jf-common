@@ -92,6 +92,9 @@ vendor/lib/libflp.so|20994b3ac3ecd2094698ac98463aed97e3ce54ef
 vendor/lib/libgeofence.so|953c2720c98825cdfb2757839f5f86400c11a2d5
 vendor/lib/libizat_core.so|8d1b8f5c26cc9bcdacb402e253048211a6c07ba1
 vendor/lib/liblbs_core.so|3dea19e84a0d226ea3e5c92ec169f7e0fdbe5699
+# GPS dependencies (klte-common lineage-14.1 branch)
+lib/libmdmdetect.so|9c19d5aacc094597c166529386f83ac721ac1979
+lib/libperipheral_client.so|7107a8e656fabc5ff6b7a33740be80a1add6abbd
 
 # Graphics
 vendor/lib/egl/eglsubAndroid.so
