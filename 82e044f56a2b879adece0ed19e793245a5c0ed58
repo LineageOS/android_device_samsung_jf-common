@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a2cb9b63_6b618ed4",
+        "filename": "configs/gps.conf",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2018-11-02T19:46:05Z",
+      "side": 1,
+      "message": "Afaik, version 3 is not supported in legacy GPS HAL. I couldn\u0027t get it to work anyway when I tested it.",
+      "revId": "82e044f56a2b879adece0ed19e793245a5c0ed58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee98fa2f_bc61838f",
+        "filename": "configs/gps.conf",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2018-11-02T19:46:05Z",
+      "side": 1,
+      "message": "Legacy GPS only supports version 1.",
+      "revId": "82e044f56a2b879adece0ed19e793245a5c0ed58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
