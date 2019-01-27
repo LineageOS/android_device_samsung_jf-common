@@ -3,7 +3,6 @@ vendor/lib/libaptX_encoder.so
 
 # Bluetooth firmware
 vendor/firmware/bcm4335.hcd
-vendor/firmware/bcm4335_prepatch.hcd
 
 # Thermal
 vendor/bin/mpdecision
