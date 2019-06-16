@@ -20,10 +20,14 @@
 
 #define BTM_DEF_LOCAL_NAME   "Samsung Galaxy S IV"
 
-#define BTA_SKIP_BLE_READ_REMOTE_FEAT TRUE
+#define BLE_PRIVACY_SPT FALSE
 #define BTA_DISABLE_DELAY 1000 /* in milliseconds */
-
+#define BTA_SKIP_BLE_READ_REMOTE_FEAT TRUE
 #define BTIF_HF_WBS_PREFERRED FALSE /* Do not prefer WBS */
+#define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
+#define BTSNOOP_MEM FALSE
+#define SC_MODE_INCLUDED FALSE
+#define SDP_DEBUG FALSE
 
 /* Defined if the kernel does not have support for CLOCK_BOOTTIME_ALARM */
 #define KERNEL_MISSING_CLOCK_BOOTTIME_ALARM TRUE
