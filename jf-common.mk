@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product-if-exists, vendor/samsung/jf-common/jf-common-vendor.mk)
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/jf-common/overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -221,7 +221,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/_hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/_hals.conf
 
 # System Properties
-$(call inherit-product, device/samsung/jf-common/system_prop.mk)
+$(call inherit-product, $(LOCAL_PATH)/system_prop.mk)
 
 # Thermal
 PRODUCT_COPY_FILES += \
