@@ -127,7 +127,9 @@ PRODUCT_PACKAGES += \
 # Filesystem tools
 PRODUCT_PACKAGES += \
     e2fsck_static \
-    resize2fs_static
+    resize2fs_static \
+    fsck.f2fs \
+    mkfs.f2fs
 
 # FlipFlap
 PRODUCT_PACKAGES += \
