@@ -119,10 +119,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDoze
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf \
-    $(LOCAL_PATH)/configs/sap.conf:/$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf
-
 # Filesystem tools
 PRODUCT_PACKAGES += \
     e2fsck_static \
@@ -131,6 +127,16 @@ PRODUCT_PACKAGES += \
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
+
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0-impl \
+    android.hardware.gnss@1.0-service \
+    gps.msm8960
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf \
+    $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
 # HIDL Manifest
 PRODUCT_COPY_FILES += \
