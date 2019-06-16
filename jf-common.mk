@@ -1,3 +1,5 @@
+
+
 #
 # Copyright (C) 2014 The CyanogenMod Project
 #
@@ -94,10 +96,10 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl-legacy \
-    camera.device@1.0-impl-legacy \
-    Snap \
-    camera.msm8960
+    android.hardware.camera.provider@2.4-impl.jf \
+    camera.device@1.0-impl.jf \
+    camera.msm8960 \
+    Snap
 
 # Display
 PRODUCT_PACKAGES += \
@@ -233,7 +235,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl
+    android.hardware.vibrator@1.0-service.jf
 
 # Wifi
 PRODUCT_PACKAGES += \
