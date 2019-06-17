@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "01100805_31dd2eb8",
+        "filename": "hidl/camera/device/CameraDevice.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 16106
+      },
+      "writtenOn": "2019-06-17T01:29:20Z",
+      "side": 1,
+      "message": "is this kanged from my own commit? \n\nhttps://github.com/TARKZiM/android_device_htc_t6-common/blob/rr-pie/camera/device/CameraDevice.cpp#L264\n\nXDA comment: https://forum.xda-developers.com/showpost.php?p\u003d79608843\u0026postcount\u003d147\n\nmaybe you should give me the proper credit or at least mention me in the commit message, thanks.",
+      "revId": "a02295bec02e9193b612bc1e56009097f434f03b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
