@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3423914f_cf15d018",
+        "filename": "jf-common.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 19837
+      },
+      "writtenOn": "2019-06-24T17:15:26Z",
+      "side": 1,
+      "message": "you removed the slash above and didn\u0027t there",
+      "range": {
+        "startLine": 123,
+        "startChar": 35,
+        "endLine": 123,
+        "endChar": 36
+      },
+      "revId": "213e3bb4ae4645939352fed43ee4899031bd9fa2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
