@@ -22,6 +22,30 @@
       "revId": "213e3bb4ae4645939352fed43ee4899031bd9fa2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5ac0efb7_3259defa",
+        "filename": "jf-common.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2019-06-24T23:10:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3423914f_cf15d018",
+      "range": {
+        "startLine": 123,
+        "startChar": 35,
+        "endLine": 123,
+        "endChar": 36
+      },
+      "revId": "213e3bb4ae4645939352fed43ee4899031bd9fa2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
