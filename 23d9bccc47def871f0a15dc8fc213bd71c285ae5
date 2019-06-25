@@ -22,6 +22,30 @@
       "revId": "23d9bccc47def871f0a15dc8fc213bd71c285ae5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cd6df18a_4e4daec7",
+        "filename": "twrp.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2019-06-25T17:36:16Z",
+      "side": 1,
+      "message": "Yeah, I\u0027m aware of that as I use LineageTWRP. One of the reasons we need to exclude it is because of space restraints.",
+      "parentUuid": "0b84ee6f_b66e78a3",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 26
+      },
+      "revId": "23d9bccc47def871f0a15dc8fc213bd71c285ae5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
