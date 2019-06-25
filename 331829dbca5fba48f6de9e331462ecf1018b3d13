@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a71a6218_4d18201b",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 16
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2019-06-25T02:36:57Z",
+      "side": 0,
+      "message": "This is still used to include some selinux policies\nhttps://github.com/LineageOS/android_system_sepolicy/blob/lineage-16.0/public/domain.te#L1125",
+      "range": {
+        "startLine": 115,
+        "startChar": 0,
+        "endLine": 115,
+        "endChar": 46
+      },
+      "revId": "331829dbca5fba48f6de9e331462ecf1018b3d13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
