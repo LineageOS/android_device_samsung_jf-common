@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d5defbe4_4d48c3d0",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-07-05T06:32:48Z",
+      "side": 1,
+      "message": "If we\u0027re going to do this just remove all the logic for it.",
+      "range": {
+        "startLine": 408,
+        "startChar": 0,
+        "endLine": 412,
+        "endChar": 44
+      },
+      "revId": "0451972701d07b3dbf0761d59bac408fffbb5313",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
