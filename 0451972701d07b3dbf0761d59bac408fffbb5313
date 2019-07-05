@@ -22,6 +22,30 @@
       "revId": "0451972701d07b3dbf0761d59bac408fffbb5313",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "83b7fa69_dac162f8",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 18551
+      },
+      "writtenOn": "2019-07-05T18:58:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d5defbe4_4d48c3d0",
+      "range": {
+        "startLine": 408,
+        "startChar": 0,
+        "endLine": 412,
+        "endChar": 44
+      },
+      "revId": "0451972701d07b3dbf0761d59bac408fffbb5313",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
