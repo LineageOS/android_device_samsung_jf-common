@@ -49,11 +49,10 @@ on fs
 
     mount_all fstab.qcom
 
+    restorecon_recursive /efs
+
     chown system radio /dev/block/platform/msm_sdcc.1/by-name
     chmod 0775 /dev/block/platform/msm_sdcc.1/by-name
-
-    # default country code
-    setprop ro.boot.wificountrycode 00
 
 on post-fs
     # Allow writing to the kernel trace log.
@@ -82,9 +81,6 @@ on post-fs-data
 
     # Create directory used by radio subsystem
     mkdir /data/radio 0770 radio radio
-
-    # Create directory for CNE
-    mkdir /data/connectivity 0771 system system
 
     # Create directory for H2K
     mkdir /data/misc/radio/hatp 0775 radio system
@@ -126,10 +122,6 @@ on post-fs-data
     chown root system /data/.psm.info
     chmod 0660 /data/.psm.info
 
-    # WiFi Antena Selection
-    chown root system /data/.ant.info
-    chmod 0664 /data/.ant.info
-
     # WiFi Version
     write /data/.wifiver.info 0
     chown root system /data/.wifiver.info
@@ -141,9 +133,7 @@ on post-fs-data
     chown system system /efs/wifi/.mac.info
     chmod 0664 /efs/wifi/.mac.info
 
-    # Create QCN WPA_supplicant symlink for ar6000 wpa_supplicant
     mkdir /data/system 0775 system system
-    rm /data/system/wpa_supplicant
 
     # Create directories for perfd
     mkdir /data/misc/perfd 2755 root system
@@ -405,12 +395,6 @@ service qcamerasvr /vendor/bin/mm-qcamera-daemon
     user camera
     group camera system inet input graphics
 
-on property:init.svc.media=restarting
-    restart qcamerasvr
-
-on property:init.svc.servicemanager=restarting
-    restart qcamerasvr
-
 service mpdecision /vendor/bin/mpdecision --no_sleep --avg_comp
     class main
     user root
@@ -418,7 +402,7 @@ service mpdecision /vendor/bin/mpdecision --no_sleep --avg_comp
 
 service kickstart /vendor/bin/qcks -i /firmware-mdm/image/
     user root
-    group radio cache inet misc audio sdcard_rw log system
+    group radio cache inet misc audio log system
     oneshot
     disabled
 
