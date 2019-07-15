@@ -446,6 +446,25 @@ service thermal-engine /vendor/bin/thermal-engine
    user root
    group root
 
+service hciattach /vendor/bin/init.qcom.bt.sh
+    class late_start
+    user bluetooth
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+on property:vendor.bluetooth.hciattach=true
+    start hciattach
+
+on property:vendor.bluetooth.hciattach=false
+    setprop vendor.bluetooth.status off
+
+service wcnss-service /vendor/bin/wcnss_service
+    class main
+    user system
+    group system wifi radio
+    oneshot
+
 # Disable boot timeout for external modems.
 on property:persist.sys.mdm.timeout_disable=1
     write /sys/module/mdm_common/parameters/disable_boot_timeout 1
