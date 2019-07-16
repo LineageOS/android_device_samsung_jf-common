@@ -7,7 +7,8 @@ vendor/firmware/bcm4335_prepatch.hcd
 
 # Thermal
 vendor/bin/mpdecision
-vendor/bin/thermald
+vendor/bin/thermal-engine
+vendor/lib/libthermalclient.so
 
 # Audio
 vendor/lib/libcsd-client.so
