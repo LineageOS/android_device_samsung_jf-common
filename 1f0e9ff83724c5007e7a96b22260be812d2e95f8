@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "44fad29e_c4b1cba7",
+        "filename": "init/init_jf.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-10T06:30:11Z",
+      "side": 1,
+      "message": "oh yeah, this didn\u0027t get 5.0.y after all did it? Sad.",
+      "range": {
+        "startLine": 56,
+        "startChar": 65,
+        "endLine": 56,
+        "endChar": 70
+      },
+      "revId": "1f0e9ff83724c5007e7a96b22260be812d2e95f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c4ade5ef_68cfadf6",
+        "filename": "init/init_jf.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-10T06:30:11Z",
+      "side": 1,
+      "message": "this defs got 5.0.1",
+      "range": {
+        "startLine": 70,
+        "startChar": 66,
+        "endLine": 70,
+        "endChar": 71
+      },
+      "revId": "1f0e9ff83724c5007e7a96b22260be812d2e95f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
