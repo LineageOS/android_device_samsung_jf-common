@@ -67,13 +67,14 @@ on enable-low-power
 
     write /sys/devices/platform/msm_sdcc.3/idle_timeout 10
 
-on boot
-    chown system system /sys/kernel/cpufreq_limit/limited_max_freq
-    chown system system /sys/kernel/cpufreq_limit/limited_min_freq
-
+on fs
     setprop sys.usb.ffs.aio_compat 1
     setprop persist.adb.nonblocking_ffs 0
     setprop ro.adb.nonblocking_ffs 0
+
+on boot
+    chown system system /sys/kernel/cpufreq_limit/limited_max_freq
+    chown system system /sys/kernel/cpufreq_limit/limited_min_freq
 
     trigger enable-low-power
 
