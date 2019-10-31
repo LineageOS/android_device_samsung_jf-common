@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee6da17e_3530b440",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 18921
+      },
+      "writtenOn": "2019-10-31T11:56:56Z",
+      "side": 0,
+      "message": "What about the Samsung specific modifications made in klte? I have been trying to get this libril to work there, but still crashloops in TelephonyProvider.",
+      "revId": "67be8a704c9ceabac1e2a04081962c603ddd10d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
