@@ -123,9 +123,6 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 # DexPreopt debug info
 WITH_DEXPREOPT_DEBUG_INFO := false
 
-# Legacy
-TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
-
 # Filesystem
 BOARD_ROOT_EXTRA_FOLDERS := efs firmware firmware-mdm
 BOARD_ROOT_EXTRA_SYMLINKS := /data/tombstones:/tombstones
