@@ -9,6 +9,9 @@ vendor/firmware/bcm4335_prepatch.hcd
 vendor/bin/mpdecision
 vendor/bin/thermal-engine
 
+# Camera
+vendor/bin/mm-qcamera-daemon
+
 # Adreno GPU
 vendor/firmware/a300_pfp.fw
 vendor/firmware/a300_pm4.fw
