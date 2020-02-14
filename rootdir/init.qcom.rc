@@ -446,7 +446,6 @@ service vendor.wifi_hal_legacy /vendor/bin/hw/android.hardware.wifi@1.0-service.
     group wifi gps
 
 on property:sys.boot_completed=1
-    setprop sys.io.scheduler cfq
     rm /data/system/perfd/default_values
 
     exec u:r:vendor_init:s0 -- /vendor/bin/dumpsys deviceidle whitelist +com.android.deskclock
