@@ -43,8 +43,6 @@ on init
 on fs
     mount_all /vendor/etc/fstab.qcom
 
-    restorecon_recursive /efs
-
     chown system radio /dev/block/platform/msm_sdcc.1/by-name
     chmod 0775 /dev/block/platform/msm_sdcc.1/by-name
 
@@ -122,17 +120,25 @@ on post-fs-data
 
     # WiFi MAC address
     mkdir /efs/wifi 0775 radio system
-    chown system system /efs/wifi/.mac.info
+    chown radio system /efs/wifi
+    chmod 0775 /efs/wifi
+    chown system wifi /efs/wifi/.mac.info
     chmod 0664 /efs/wifi/.mac.info
 
     # Bluetooth MAC address
-    mkdir /efs/bluetooth 0775 bluetooth bluetooth
-    chown bluetooth bluetooth /efs/bluetooth/bt_addr
+    mkdir /efs/bluetooth 0775 radio system
+    chown radio system /efs/bluetooth
+    chmod 0775 /efs/bluetooth
+    chown radio radio /efs/bluetooth/bt_addr
     chmod 0664 /efs/bluetooth/bt_addr
 
     # Create directories for perfd
     mkdir /data/misc/perfd 2755 root system
     mkdir /data/system/perfd 2770 root system
+
+    # Restore selinux labels on efs files
+    restorecon /efs/bluetooth/bt_addr
+    restorecon /efs/wifi/.mac.info
 
     setprop vold.post_fs_data_done 1
 
@@ -452,3 +458,7 @@ service thermal-engine /vendor/bin/thermal-engine
 on property:sys.boot_completed=1
     setprop sys.io.scheduler cfq
     rm /data/system/perfd/default_values
+
+    # Make sure efs labels are set after boot, due to
+    # first_stage_mount weirdness
+    restorecon_recursive /efs
