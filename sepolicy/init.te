@@ -1,7 +1,6 @@
 domain_auto_trans(init, shell_exec, shell)
 
 allow init alarm_device:chr_file { read open };
-allow init camera_socket:sock_file relabelto;
 allow init debugfs:dir mounton;
 allow init debugfs:file w_file_perms;
 allow init diag_device:chr_file unlink;
