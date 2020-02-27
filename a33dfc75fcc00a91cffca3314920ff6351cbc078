@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6abcd5b6_6a06faa1",
+        "filename": "sepolicy/mediaserver.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-27T07:05:11Z",
+      "side": 1,
+      "message": "You missed this one.",
+      "revId": "a33dfc75fcc00a91cffca3314920ff6351cbc078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
