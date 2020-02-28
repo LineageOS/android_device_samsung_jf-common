@@ -7,7 +7,6 @@ allow netmgrd self:packet_socket create_socket_perms_no_ioctl;
 allow netmgrd self:rawip_socket create_socket_perms;
 allow netmgrd self:udp_socket create_socket_perms;
 allow netmgrd shell_exec:file rx_file_perms;
-allow netmgrd system_file:file rx_file_perms;
 
 auditallow netmgrd radio_prop:property_service set;
 dontaudit netmgrd self:capability sys_module;
