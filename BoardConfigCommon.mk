@@ -22,6 +22,8 @@
 # definition file).
 #
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # Inherit from qcom-common
 -include device/samsung/qcom-common/BoardConfigCommon.mk
 
