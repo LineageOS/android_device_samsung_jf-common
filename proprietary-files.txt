@@ -11,6 +11,7 @@ vendor/bin/thermal-engine
 
 # Camera
 vendor/bin/mm-qcamera-daemon
+vendor/lib/libmmjpeg.so
 
 # Adreno GPU
 vendor/firmware/a300_pfp.fw
