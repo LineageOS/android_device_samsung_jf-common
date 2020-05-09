@@ -1,4 +1,4 @@
-#
+\#
 # Copyright (C) 2013-2016 The CyanogenMod Project
 # Copyright (C) 2017-2019 The LineageOS Project
 #
@@ -138,6 +138,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Recovery
 TARGET_RECOVERY_DENSITY := xhdpi
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/fstab.qcom
+TARGET_RECOVERY_SKIP_EV_REL_INPUT := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # Releasetools
