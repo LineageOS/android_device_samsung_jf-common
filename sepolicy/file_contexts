@@ -1,4 +1,5 @@
 /data/.cid.info                                                  u:object_r:wifi_data_file:s0
+/data/.psm.info                                                  u:object_r:wifi_data_file:s0
 /data/.wifiver.info                                              u:object_r:wifi_data_file:s0
 /data/data/com.android.providers.telephony/databases(/.*)?       u:object_r:radio_data_file:s0
 /data/data/com.android.providers.telephony/shared_prefs(/.*)?    u:object_r:radio_data_file:s0
