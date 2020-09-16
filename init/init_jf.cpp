@@ -14,7 +14,6 @@
 using android::base::GetProperty;
 using android::base::ReadFileToString;
 using android::base::Trim;
-using android::init::property_set;
 
 #define SERIAL_NUMBER_FILE "/efs/FactoryApp/serial_no"
 
@@ -98,8 +97,8 @@ void vendor_load_properties()
         }
         property_override("ro.build.description", "jfltecri-user 4.4.2 KOT49H R970CVVUFNC6 release-keys");
         property_override("ro.build.product", "jfltecri");
-        property_set("ro.cdma.home.operator.alpha", "Cricket");
-        property_set("ro.cdma.home.operator.numeric", "310090");
+        property_override("ro.cdma.home.operator.alpha", "Cricket");
+        property_override("ro.cdma.home.operator.numeric", "310090");
     } else if (bootloader.find("R970X") == 0) {
         /* jfltecsp */
         for (const auto &source : ro_product_props_default_source_order) {
@@ -110,8 +109,8 @@ void vendor_load_properties()
         }
         property_override("ro.build.description", "jfltecsp-user 5.0.1 LRX22C R970XWWUGOH1 release-keys");
         property_override("ro.build.product", "jfltecsp");
-        property_set("ro.cdma.home.operator.alpha", "C Spire");
-        property_set("ro.cdma.home.operator.numeric", "311230");
+        property_override("ro.cdma.home.operator.alpha", "C Spire");
+        property_override("ro.cdma.home.operator.numeric", "311230");
     } else if (bootloader.find("R970") == 0) {
         /* jflteusc */
         for (const auto &source : ro_product_props_default_source_order) {
@@ -122,8 +121,8 @@ void vendor_load_properties()
         }
         property_override("ro.build.description", "jflteusc-user 5.0.1 LRX22C R970TYUGPD5 release-keys");
         property_override("ro.build.product", "jflteusc");
-        property_set("ro.cdma.home.operator.alpha", "U.S. Cellular");
-        property_set("ro.cdma.home.operator.numeric", "311580");
+        property_override("ro.cdma.home.operator.alpha", "U.S. Cellular");
+        property_override("ro.cdma.home.operator.numeric", "311580");
     } else if (bootloader.find("L720") == 0) {
         /* jfltespr */
         for (const auto &source : ro_product_props_default_source_order) {
@@ -134,8 +133,8 @@ void vendor_load_properties()
         }
         property_override("ro.build.description", "jfltespr-user 5.0.1 LRX22C L720VPSGPL1 release-keys");
         property_override("ro.build.product", "jfltespr");
-        property_set("ro.cdma.home.operator.alpha", "Sprint");
-        property_set("ro.cdma.home.operator.numeric", "310120");
+        property_override("ro.cdma.home.operator.alpha", "Sprint");
+        property_override("ro.cdma.home.operator.numeric", "310120");
     } else if (bootloader.find("I337M") == 0) {
         /* jfltecan */
         for (const auto &source : ro_product_props_default_source_order) {
