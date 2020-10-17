@@ -45,6 +45,9 @@ TARGET_USES_64_BIT_BINDER := true
 # LMKD stats logging
 TARGET_LMKD_STATS_LOG := true
 
+# Memfd
+TARGET_HAS_MEMFD_BACKPORT := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
