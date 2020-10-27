@@ -275,7 +275,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, $(LOCAL_PATH)/system_prop.mk)
 
 # Call jf system debug props
-#$(call inherit-product, $(LOCAL_PATH)/system_prop_debug.mk)
+$(call inherit-product, $(LOCAL_PATH)/system_prop_debug.mk)
 
 # Thermal
 PRODUCT_COPY_FILES += \
