@@ -1,4 +1,4 @@
-service vendor.wifi_hal_legacy /vendor/bin/hw/android.hardware.wifi@1.0-service
+service vendor.wifi_hal_legacy /vendor/bin/hw/android.hardware.wifi@1.0-service.jf
     interface android.hardware.wifi@1.0::IWifi default
     interface android.hardware.wifi@1.1::IWifi default
     interface android.hardware.wifi@1.2::IWifi default
@@ -6,5 +6,5 @@ service vendor.wifi_hal_legacy /vendor/bin/hw/android.hardware.wifi@1.0-service
     interface android.hardware.wifi@1.4::IWifi default
     class hal
     capabilities NET_ADMIN NET_RAW SYS_MODULE
-    user wifi
+    user root
     group wifi gps
