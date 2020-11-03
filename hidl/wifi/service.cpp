@@ -15,7 +15,6 @@
  */
 
 #include <android-base/logging.h>
-#include <hidl/HidlLazyUtils.h>
 #include <hidl/HidlTransportSupport.h>
 #include <utils/Looper.h>
 #include <utils/StrongPointer.h>
@@ -27,19 +26,12 @@
 
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
-using android::hardware::LazyServiceRegistrar;
 using android::hardware::wifi::V1_4::implementation::feature_flags::
     WifiFeatureFlags;
 using android::hardware::wifi::V1_4::implementation::iface_util::WifiIfaceUtil;
 using android::hardware::wifi::V1_4::implementation::legacy_hal::WifiLegacyHal;
 using android::hardware::wifi::V1_4::implementation::mode_controller::
     WifiModeController;
-
-#ifdef LAZY_SERVICE
-const bool kLazyService = true;
-#else
-const bool kLazyService = false;
-#endif
 
 int main(int /*argc*/, char** argv) {
     android::base::InitLogging(
@@ -57,14 +49,8 @@ int main(int /*argc*/, char** argv) {
             std::make_shared<WifiModeController>(),
             std::make_shared<WifiIfaceUtil>(iface_tool),
             std::make_shared<WifiFeatureFlags>());
-    if (kLazyService) {
-        auto registrar = LazyServiceRegistrar::getInstance();
-        CHECK_EQ(registrar.registerService(service), android::NO_ERROR)
-            << "Failed to register wifi HAL";
-    } else {
         CHECK_EQ(service->registerAsService(), android::NO_ERROR)
             << "Failed to register wifi HAL";
-    }
 
     joinRpcThreadpool();
 
