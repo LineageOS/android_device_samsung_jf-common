@@ -42,9 +42,6 @@ TARGET_CPU_VARIANT_RUNTIME := krait
 # Binder
 TARGET_USES_64_BIT_BINDER := true
 
-# LMKD stats logging
-TARGET_LMKD_STATS_LOG := true
-
 # Memfd
 TARGET_HAS_MEMFD_BACKPORT := true
 
