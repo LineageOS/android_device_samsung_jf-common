@@ -42,6 +42,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
 
+# Recovery
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.recovery.skip_ev_rel_input
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib/libril-qc-qmi-1.so \
