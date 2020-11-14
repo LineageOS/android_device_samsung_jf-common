@@ -150,6 +150,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-lite-vendorcompat
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
