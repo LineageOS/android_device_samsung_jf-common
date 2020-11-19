@@ -150,6 +150,8 @@ on early-boot
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
 
+    start qcamerasvr
+
 on boot
     # Configure bluetooth
     chmod 0660 /proc/bluetooth/sleep/asleep
@@ -382,9 +384,10 @@ on boot
     write /sys/module/subsystem_restart/parameters/restart_level 3
 
 service qcamerasvr /vendor/bin/mm-qcamera-daemon
-    class late_start
+    class main
     user camera
     group camera system inet input graphics
+    disabled
 
 service mpdecision /vendor/bin/mpdecision --no_sleep --avg_comp
     class main
