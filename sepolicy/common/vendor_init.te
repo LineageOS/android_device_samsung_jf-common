@@ -1,4 +1,4 @@
-type_transition vendor_init system_data_file:file wifi_data_file;
+type_transition vendor_init system_data_root_file:file wifi_data_file;
 
 allow vendor_init deviceidle_service:service_manager find;
 allow vendor_init unlabeled:{ dir file } { getattr relabelfrom };
