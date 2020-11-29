@@ -1,19 +1,22 @@
-# Bluetooth
+### Unless otherwise noted, all blobs are extracted from I9505XXUPQG1_I9505NEEPQG1_NEE
+
+## Bluetooth
 vendor/lib/libaptX_encoder.so
 
-# Bluetooth firmware
+## Bluetooth firmware
 vendor/firmware/bcm4335.hcd
 vendor/firmware/bcm4335_prepatch.hcd
 
-# Thermal
-vendor/bin/mpdecision
-vendor/bin/thermal-engine
+## Thermal
+vendor/bin/mpdecision|f2f62bee58d83a16f649ad63d0520de30bca0d7f
+vendor/bin/thermal-engine|eced9742af48104835dac37980c3cc9929a1ade8
 
-# Camera
-vendor/bin/mm-qcamera-daemon
+## Camera
+# From mako 5.1.1 (LMY48T)
+vendor/bin/mm-qcamera-daemon|e8159d4975e9df403fa3d7c4fe642a66501db819
 vendor/lib/libmmjpeg.so
 
-# Adreno GPU
+## GPU (Adreno)
 vendor/firmware/a300_pfp.fw
 vendor/firmware/a300_pm4.fw
 vendor/firmware/vidc_1080p.fw
@@ -23,44 +26,48 @@ vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/libadreno_utils.so
-vendor/lib/libbccQTI.so
 vendor/lib/libC2D2.so
 vendor/lib/libc2d30-a3xx.so
-vendor/lib/libCB.so
 vendor/lib/libgsl.so
-vendor/lib/libllvm-qcom.so
-vendor/lib/librs_adreno_sha1.so
-vendor/lib/librs_adreno.so
-vendor/lib/libRSDriver_adreno.so
 vendor/lib/libsc-a3xx.so
 
-# Radio
-vendor/bin/efsks
-vendor/bin/ks
-vendor/bin/qcks
-vendor/bin/qmuxd
-vendor/bin/netmgrd
-vendor/lib/libdiag.so
-vendor/lib/libdsutils.so
-vendor/lib/libidl.so
-vendor/lib/libnetmgr.so
-vendor/lib/libqcci_legacy.so
-vendor/lib/libqdi.so
-vendor/lib/libqdp.so
-vendor/lib/libqmi.so
-vendor/lib/libqmi_cci.so
-vendor/lib/libqmi_client_qmux.so
-vendor/lib/libqmi_common_so.so
-vendor/lib/libqmi_csi.so
-vendor/lib/libqmi_encdec.so
-vendor/lib/libqmiservices.so
-vendor/lib/libril-qc-qmi-1.so
-vendor/lib/libril-qcril-hook-oem.so
+## Renderscript
+# From angler OPM7.181205.001
+vendor/lib/libbccQTI.so|7cd380e1ce6c80fa57bec7d9f81f7826382ccea7
+vendor/lib/libCB.so|ced7d5bfdbb5b5c0cb2b69e67942d568bedff4d5
+vendor/lib/libRSDriver_adreno.so|ee3386248adfa7d1a8c1107e051bcbbd3e8df0c1
+vendor/lib/libllvm-qcom.so|ab8604edbedb9db19ac9f0cfbeb4473adf20b2c5
+vendor/lib/librs_adreno_sha1.so|be8a817743950dac6e22b50cbd9657c2d35c35f2
+vendor/lib/librs_adreno.so|bb1d5cb84f14ed18fcbfb4815692cb196e44f180
 
-# Network
+## Radio
+# From deb MOB30X
+vendor/bin/efsks|3789db5d36b87b11cdb08705be457346a26ad14c
+vendor/bin/ks|863e65aec8479fab7d94f1a82b95b37d95c70433
+vendor/bin/qcks|f3a535d1ba63a2d31eb6528b2e34011733bd637d
+vendor/bin/qmuxd|e2aa4ab693b754fb7c398cc7a4b6d92e28c0aa6b
+vendor/bin/netmgrd|ac575b0832798933e45b86f6cf48ec76b8084eea
+vendor/lib/libdiag.so|985283135809ac2253e482f9ae442f02f7865ec9
+vendor/lib/libdsutils.so|af1c26710b34f651caeea3e42f5a3eea110afc84
+vendor/lib/libidl.so|c40e802706afea5875ce4432cea8a0b47ac9368f
+vendor/lib/libnetmgr.so|73861569db1db7b64a687d74e174ad6cfa4f2112
+vendor/lib/libqcci_legacy.so|170d5a0636fd65109edffad8bada31833e882f14
+vendor/lib/libqdi.so520afba19b0d10aa76c8c211db6bc3a063d44647
+vendor/lib/libqdp.so|5db21fda3d88bf14a98071061b5078933339775f
+vendor/lib/libqmi.so|ce3b9610aba09696b37cacda9c4860a97502569c
+vendor/lib/libqmi_cci.so|2c04ee405b8d1e3a91883ec5f99ce220602acd63
+vendor/lib/libqmi_client_qmux.so|e6d3f49a90d29592d22a015fa36af3c0d34d0154
+vendor/lib/libqmi_common_so.so|b7b5ef91255892f40d90fce23a67729d59931b01
+vendor/lib/libqmi_csi.so|58fa192caf17bd423727157609bdbbd3f002f56c
+vendor/lib/libqmi_encdec.so|646adac3d29fab55ede8b190c48786c13649b24f
+vendor/lib/libqmiservices.so|b64993179780924f01d32f6c56f67fcf5bffa65c
+vendor/lib/libril-qc-qmi-1.so|4d01f7ab7daae19bccc48f6491d951b7d255bb79
+vendor/lib/libril-qcril-hook-oem.so|ed231b03c05fa98664d2853996d2d4b16a00d840
+
+## Network
 vendor/bin/radish
 
-# GPS
+## GPS
 vendor/bin/irsc_util
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libgeofence.so
@@ -68,21 +75,21 @@ vendor/lib/libizat_core.so
 vendor/lib/libloc_api_v02.so
 vendor/lib/libloc_ds_api.so
 
-# Sensors
+## Sensors
 vendor/lib/hw/sensors.vendor.msm8960.so
 vendor/lib/libsam.so
 vendor/lib/libsensirion_j1.so
 
-# NFC firmware
+## NFC firmware
 vendor/firmware/bcm2079xB4_firmware.ncd
 vendor/firmware/bcm2079xB4_pre_firmware.ncd
 
-# Perf
+## Perf
 vendor/lib/libqti-perfd-client.so
 
-# DRM
+## DRM
 vendor/lib/mediadrm/libwvdrmengine.so
 
-# Wi-Fi
+## Wi-Fi
 vendor/etc/wifi/bcmdhd_apsta.bin
 vendor/etc/wifi/bcmdhd_sta.bin
