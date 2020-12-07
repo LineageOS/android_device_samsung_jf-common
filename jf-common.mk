@@ -251,6 +251,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
     $(LOCAL_PATH)/rootdir/ueventd.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
+# Kernel Modules
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
+    $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
+
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service.jf
