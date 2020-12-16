@@ -52,7 +52,7 @@ vendor/lib/libdsutils.so|af1c26710b34f651caeea3e42f5a3eea110afc84
 vendor/lib/libidl.so|c40e802706afea5875ce4432cea8a0b47ac9368f
 vendor/lib/libnetmgr.so|73861569db1db7b64a687d74e174ad6cfa4f2112
 vendor/lib/libqcci_legacy.so|170d5a0636fd65109edffad8bada31833e882f14
-vendor/lib/libqdi.so520afba19b0d10aa76c8c211db6bc3a063d44647
+vendor/lib/libqdi.so|520afba19b0d10aa76c8c211db6bc3a063d44647
 vendor/lib/libqdp.so|5db21fda3d88bf14a98071061b5078933339775f
 vendor/lib/libqmi.so|ce3b9610aba09696b37cacda9c4860a97502569c
 vendor/lib/libqmi_cci.so|2c04ee405b8d1e3a91883ec5f99ce220602acd63
