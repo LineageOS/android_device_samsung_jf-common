@@ -63,6 +63,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.enable_suspend=true
 
+# Dalvik
 PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heapgrowthlimit=128m \
@@ -70,3 +71,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=2m \
     dalvik.vm.heapmaxfree=8m
+
+# Updater properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.recovery_update=false
