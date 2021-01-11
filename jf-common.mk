@@ -138,9 +138,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     resize2fs_static
 
+ifeq ($(findstring jactivelte,$(TARGET_PRODUCT)),)
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
+endif
 
 # GPS
 PRODUCT_PACKAGES += \
