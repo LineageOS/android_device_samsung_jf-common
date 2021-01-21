@@ -31,15 +31,6 @@ vendor/lib/libc2d30-a3xx.so
 vendor/lib/libgsl.so
 vendor/lib/libsc-a3xx.so
 
-## Renderscript
-# From angler OPM7.181205.001
-vendor/lib/libbccQTI.so|7cd380e1ce6c80fa57bec7d9f81f7826382ccea7
-vendor/lib/libCB.so|ced7d5bfdbb5b5c0cb2b69e67942d568bedff4d5
-vendor/lib/libRSDriver_adreno.so|ee3386248adfa7d1a8c1107e051bcbbd3e8df0c1
-vendor/lib/libllvm-qcom.so|ab8604edbedb9db19ac9f0cfbeb4473adf20b2c5
-vendor/lib/librs_adreno_sha1.so|be8a817743950dac6e22b50cbd9657c2d35c35f2
-vendor/lib/librs_adreno.so|bb1d5cb84f14ed18fcbfb4815692cb196e44f180
-
 ## Radio
 # From deb MOB30X
 vendor/bin/efsks|3789db5d36b87b11cdb08705be457346a26ad14c

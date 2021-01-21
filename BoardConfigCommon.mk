@@ -150,9 +150,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 
-# Renderscript
-OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
-
 # SELinux
 include device/qcom/sepolicy-legacy/sepolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
