@@ -9,3 +9,4 @@ getcwd: 1
 getsockopt: 1
 # ffmpeg needs this
 getdents64: 1
+socket: 1
