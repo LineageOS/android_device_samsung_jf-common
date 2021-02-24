@@ -167,6 +167,6 @@ void vendor_load_properties()
         property_override("ro.build.product", "jfltevzw");
     }
 
-    const std::string device = GetProperty("ro.product.device", "");
+    const std::string device = GetProperty("ro.product.vendor.device", "");
     LOG(INFO) << "Found bootloader " << bootloader << ". " << "Setting build properties for " << device << ".\n";
 }
