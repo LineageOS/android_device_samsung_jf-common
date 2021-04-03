@@ -1,0 +1,4 @@
+allow gmscore_app hal_memtrack_hwservice:hwservice_manager find;
+allow gmscore_app sysfs_rmnet:file r_file_perms;
+
+binder_call(gmscore_app, hal_memtrack_default)
