@@ -16,6 +16,23 @@
       "message": "It\u0027s weird to think this phone is compact now... Tested on jfltexx",
       "revId": "593f5a7325b5a99c884f01d9f2dc1132704149f5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c109c45_37cdcd26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-01-02T01:38:47Z",
+      "side": 1,
+      "message": "ensure it builds on jfvelte and we\u0027re golden.",
+      "revId": "593f5a7325b5a99c884f01d9f2dc1132704149f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
