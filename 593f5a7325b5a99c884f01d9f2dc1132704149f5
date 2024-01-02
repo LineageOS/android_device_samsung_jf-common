@@ -33,6 +33,24 @@
       "message": "ensure it builds on jfvelte and we\u0027re golden.",
       "revId": "593f5a7325b5a99c884f01d9f2dc1132704149f5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5672efb_753566b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-02T01:42:19Z",
+      "side": 1,
+      "message": "`m recoveryimage` succeeded with jfvelte",
+      "parentUuid": "8c109c45_37cdcd26",
+      "revId": "593f5a7325b5a99c884f01d9f2dc1132704149f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
