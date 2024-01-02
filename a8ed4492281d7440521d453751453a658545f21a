@@ -16,6 +16,23 @@
       "message": "As a side note, something\u0027s wrong with the fingerprint setting. the code appears to set ro.product.fingerprint which seemingly doesn\u0027t exist, and ro.product.build.fingerprint does exist but returns I9505 fingerprint.\n\nI\u0027m not sure if this is intended behaviour.",
       "revId": "a8ed4492281d7440521d453751453a658545f21a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bfef94af_78ba0028",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-02T05:25:27Z",
+      "side": 1,
+      "message": "Pushed fingerprint fix to another change",
+      "revId": "a8ed4492281d7440521d453751453a658545f21a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
