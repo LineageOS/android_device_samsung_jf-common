@@ -63,7 +63,7 @@ void vendor_load_properties()
     if (bootloader.find("M919V") == 0) {
         /* jfltecan - no LTE version */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfltevw/jfltecan:5.0.1/LRX22C/M919VVLUGOH1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfltevw/jfltecan:5.0.1/LRX22C/M919VVLUGOH1:user/release-keys");
             set_ro_product_prop(source, "device", "jfltecan");
             set_ro_product_prop(source, "model", "SGH-M919V");
             set_ro_product_prop(source, "name", "jfltevw");
@@ -73,7 +73,7 @@ void vendor_load_properties()
     } else if (bootloader.find("M919") == 0) {
         /* jfltetmo */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfltetmo/jfltetmo:4.4.4/KTU84P/M919UVSFQA1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfltetmo/jfltetmo:4.4.4/KTU84P/M919UVSFQA1:user/release-keys");
             set_ro_product_prop(source, "device", "jfltetmo");
             set_ro_product_prop(source, "model", "SGH-M919");
             set_ro_product_prop(source, "name", "jfltetmo");
@@ -83,7 +83,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I9505G") == 0) {
         /* jgedlte */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jgedlteue/jgedlte:5.1/LMY47O.S008/160301:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jgedlteue/jgedlte:5.1/LMY47O.S008/160301:user/release-keys");
             set_ro_product_prop(source, "device", "jgedlte");
             set_ro_product_prop(source, "model", "GT-I9505G");
             set_ro_product_prop(source, "name", "jgedlteu");
@@ -93,7 +93,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I9505") == 0) {
         /* jfltexx */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHQK1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHQK1:user/release-keys");
             set_ro_product_prop(source, "device", "jflte");
             set_ro_product_prop(source, "model", "GT-I9505");
             set_ro_product_prop(source, "name", "jfltexx");
@@ -103,7 +103,7 @@ void vendor_load_properties()
     } else if (bootloader.find("R970C") == 0) {
         /* jfltecri */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfltecri/jfltecri:4.4.2/KOT49H/R970CVVUFNC6:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfltecri/jfltecri:4.4.2/KOT49H/R970CVVUFNC6:user/release-keys");
             set_ro_product_prop(source, "device", "jfltecri");
             set_ro_product_prop(source, "model", "SCH-R970C");
             set_ro_product_prop(source, "name", "jfltecri");
@@ -115,7 +115,7 @@ void vendor_load_properties()
     } else if (bootloader.find("R970X") == 0) {
         /* jfltecsp */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfltecsp/jfltecsp:5.0.1/LRX22C/R970XWWUGOH1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfltecsp/jfltecsp:5.0.1/LRX22C/R970XWWUGOH1:user/release-keys");
             set_ro_product_prop(source, "device", "jfltecsp");
             set_ro_product_prop(source, "model", "SCH-R970X");
             set_ro_product_prop(source, "name", "jfltecsp");
@@ -127,7 +127,7 @@ void vendor_load_properties()
     } else if (bootloader.find("R970") == 0) {
         /* jflteusc */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jflteusc/jflteusc:5.0.1/LRX22C/R970TYUGPD5:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jflteusc/jflteusc:5.0.1/LRX22C/R970TYUGPD5:user/release-keys");
             set_ro_product_prop(source, "device", "jflteusc");
             set_ro_product_prop(source, "model", "SCH-R970");
             set_ro_product_prop(source, "name", "jflteusc");
@@ -139,7 +139,7 @@ void vendor_load_properties()
     } else if (bootloader.find("L720") == 0) {
         /* jfltespr */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfltespr/jfltespr:5.0.1/LRX22C/L720VPSGPL1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfltespr/jfltespr:5.0.1/LRX22C/L720VPSGPL1:user/release-keys");
             set_ro_product_prop(source, "device", "jfltespr");
             set_ro_product_prop(source, "model", "SPH-L720");
             set_ro_product_prop(source, "name", "jfltespr");
@@ -151,7 +151,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I337M") == 0) {
         /* jfltecan */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfltevl/jfltecan:5.0.1/LRX22C/I337MVLSGQB1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfltevl/jfltecan:5.0.1/LRX22C/I337MVLSGQB1:user/release-keys");
             set_ro_product_prop(source, "device", "jfltecan");
             set_ro_product_prop(source, "model", "SGH-I337M");
             set_ro_product_prop(source, "name", "jfltevl");
@@ -161,7 +161,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I337") == 0) {
         /* jflteatt */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jflteuc/jflteatt:5.0.1/LRX22C/I337UCUGOC3:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jflteuc/jflteatt:5.0.1/LRX22C/I337UCUGOC3:user/release-keys");
             set_ro_product_prop(source, "device", "jflteatt");
             set_ro_product_prop(source, "model", "SGH-I337");
             set_ro_product_prop(source, "name", "jflteuc");
@@ -171,7 +171,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I9515L") == 0) {
         /* jfvelteub */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfvelteub/jfvelte:5.0.1/LRX22C/I9515LUBU1BQF1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfvelteub/jfvelte:5.0.1/LRX22C/I9515LUBU1BQF1:user/release-keys");
             set_ro_product_prop(source, "device", "jfvelte");
             set_ro_product_prop(source, "model", "GT-I9515L");
             set_ro_product_prop(source, "name", "jfvelteub");
@@ -181,7 +181,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I9515") == 0) {
         /* jfvelte */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfveltexx/jfvelte:5.0.1/LRX22C/I9515XXS1BQD2:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfveltexx/jfvelte:5.0.1/LRX22C/I9515XXS1BQD2:user/release-keys");
             set_ro_product_prop(source, "device", "jfvelte");
             set_ro_product_prop(source, "model", "GT-I9515");
             set_ro_product_prop(source, "name", "jfveltexx");
@@ -191,7 +191,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I545L") == 0) {
         /* jfltelra */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jfltelra/jfltelra:5.0.1/LRX22C/I545LWWUGOH1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jfltelra/jfltelra:5.0.1/LRX22C/I545LWWUGOH1:user/release-keys");
             set_ro_product_prop(source, "device", "jfltelra");
             set_ro_product_prop(source, "model", "SCH-I545L");
             set_ro_product_prop(source, "name", "jfltelra");
@@ -201,7 +201,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I545") == 0) {
         /* jfltevzw */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "Verizon/jfltevzw/jfltevzw:5.0.1/LRX22C/I545VRSGPL1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "Verizon/jfltevzw/jfltevzw:5.0.1/LRX22C/I545VRSGPL1:user/release-keys");
             set_ro_product_prop(source, "device", "jfltevzw");
             set_ro_product_prop(source, "model", "SCH-I545");
             set_ro_product_prop(source, "name", "jfltevzw");
@@ -211,7 +211,7 @@ void vendor_load_properties()
     } else if (bootloader.find("I9295") == 0) {
         /* jactivelte */
         for (const auto &source : ro_product_props_default_source_order) {
-            set_ro_product_prop(source, "fingerprint", "samsung/jactiveltexx/jactivelte:5.0.1/LRX22C/I9295XXUDPF1:user/release-keys");
+            set_ro_product_prop(source, "build.fingerprint", "samsung/jactiveltexx/jactivelte:5.0.1/LRX22C/I9295XXUDPF1:user/release-keys");
             set_ro_product_prop(source, "device", "jactivelte");
             set_ro_product_prop(source, "model", "GT-I9295");
             set_ro_product_prop(source, "name", "jactiveltexx");
