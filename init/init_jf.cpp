@@ -60,7 +60,17 @@ void vendor_load_properties()
         property_override(prop_name.c_str(), value.c_str(), false);
     };
 
-    if (bootloader.find("M919") == 0) {
+    if (bootloader.find("M919V") == 0) {
+        /* jfltecan - no LTE version */
+        for (const auto &source : ro_product_props_default_source_order) {
+            set_ro_product_prop(source, "fingerprint", "samsung/jfltevw/jfltecan:5.0.1/LRX22C/M919VVLUGOH1:user/release-keys");
+            set_ro_product_prop(source, "device", "jfltecan");
+            set_ro_product_prop(source, "model", "SGH-M919V");
+            set_ro_product_prop(source, "name", "jfltevw");
+        }
+        property_override("ro.build.description", "jfltevw-user 5.0.1 LRX22C M919VVLUGOH1 release-keys");
+        property_override("ro.build.product", "jfltecan");
+    } else if (bootloader.find("M919") == 0) {
         /* jfltetmo */
         for (const auto &source : ro_product_props_default_source_order) {
             set_ro_product_prop(source, "fingerprint", "samsung/jfltetmo/jfltetmo:4.4.4/KTU84P/M919UVSFQA1:user/release-keys");
