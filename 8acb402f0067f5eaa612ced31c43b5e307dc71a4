@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6de8edfb_ba349090",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-02T04:41:24Z",
+      "side": 1,
+      "message": "Tested on my M919V (well, my crossflashed M919V)",
+      "revId": "8acb402f0067f5eaa612ced31c43b5e307dc71a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
