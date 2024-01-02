@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9eb5257_a3e16dfd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-02T00:35:05Z",
+      "side": 1,
+      "message": "It\u0027s weird to think this phone is compact now... Tested on jfltexx",
+      "revId": "593f5a7325b5a99c884f01d9f2dc1132704149f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
