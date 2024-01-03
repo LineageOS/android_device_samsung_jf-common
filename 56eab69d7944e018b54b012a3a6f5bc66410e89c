@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c8e48a4_6ba6d0b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-03T08:24:56Z",
+      "side": 1,
+      "message": "So my device connected to LTE on Wind firmware.\n\nI\u0027m looking into why that is.",
+      "revId": "56eab69d7944e018b54b012a3a6f5bc66410e89c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
