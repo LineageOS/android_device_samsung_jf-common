@@ -61,7 +61,7 @@ void vendor_load_properties()
     };
 
     if (bootloader.find("M919V") == 0) {
-        /* jfltecan - no LTE version */
+        /* jfltecan - Videotron */
         for (const auto &source : ro_product_props_default_source_order) {
             set_ro_product_prop(source, "build.fingerprint", "samsung/jfltevw/jfltecan:5.0.1/LRX22C/M919VVLUGOH1:user/release-keys");
             set_ro_product_prop(source, "device", "jfltecan");
