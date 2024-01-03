@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "024af67f_c445a565",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-03T09:18:49Z",
+      "side": 1,
+      "message": "Had to do a lot of digging, and some LTE Discovery.\n\nWhatever Samsung did to this phone, LTE does in fact work, and apparently it worked on Videotron back in the day as well. I don\u0027t really know where the misconception came from at this point, but with that said I don\u0027t think it\u0027s really correct to say that it has no LTE when it seemingly does.",
+      "revId": "d9eb3a25d7c443e3da8361d0bee698d986dbf5e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
