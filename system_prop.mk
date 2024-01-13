@@ -10,9 +10,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat-swap=false
 
+ifeq ($(findstring jactivelte,$(TARGET_PRODUCT)),)
 # fastbootd
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fastbootd.available=true
+endif
 
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \

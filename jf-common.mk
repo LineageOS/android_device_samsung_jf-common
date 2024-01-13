@@ -69,7 +69,11 @@ PRODUCT_COPY_FILES += \
 # AAPT
 # Device uses extra-extra-high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
+ifneq ($(findstring jactivelte,$(TARGET_PRODUCT)),)
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+else
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+endif
 
 # HIDL
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
@@ -151,8 +155,10 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm/arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-v29.so
 
 # fastbootd
+ifeq ($(findstring jactivelte,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
     fastbootd
+endif
 
 # Filesystem tools
 PRODUCT_PACKAGES += \
