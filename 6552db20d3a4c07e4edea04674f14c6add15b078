@@ -16,6 +16,24 @@
       "message": "Why does this need to be a fixup, ffs?",
       "revId": "6552db20d3a4c07e4edea04674f14c6add15b078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c3ae404_cfb2a710",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-01-13T18:17:28Z",
+      "side": 1,
+      "message": "It doesn\u0027t I guess?\n\nDevice tree side, fixups purpose don\u0027t really make sense (tracking fore rebases), I use it moreso to show dependency.\n\nBut if you\u0027re that against it, I can not.",
+      "parentUuid": "4838c7a0_29e6645f",
+      "revId": "6552db20d3a4c07e4edea04674f14c6add15b078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
