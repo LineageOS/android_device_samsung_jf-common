@@ -69,7 +69,11 @@ PRODUCT_COPY_FILES += \
 # AAPT
 # Device uses extra-extra-high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
+ifneq ($(findstring jactivelte,$(TARGET_PRODUCT)),)
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+else
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+endif
 
 # HIDL
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
