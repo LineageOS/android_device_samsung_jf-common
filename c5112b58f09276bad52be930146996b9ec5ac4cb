@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed498272_4630b1d2",
+        "filename": "jf-common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-14T01:54:13Z",
+      "side": 1,
+      "message": "This isn\u0027t TARGET_RECOVERY_DENSITY lol",
+      "revId": "c5112b58f09276bad52be930146996b9ec5ac4cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
