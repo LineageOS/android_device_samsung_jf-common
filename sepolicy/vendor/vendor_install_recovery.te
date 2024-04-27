@@ -1,0 +1,1 @@
+#allow vendor_install_recovery shell_exec:self { exec r_file_perms };

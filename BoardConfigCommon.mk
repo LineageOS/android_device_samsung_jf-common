@@ -56,7 +56,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 # Kernel
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80200000
 BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_KERNEL_PAGESIZE := 2048
@@ -143,7 +143,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 9961472000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Recovery
-ifneq ($(findstring jactivelte,$(TARGET_PRODUCT)),)
+BOARD_USES_FULL_RECOVERY_IMAGE := true
+ifneq ($(findstring jactivelte jflteatt jfltevzw,$(TARGET_PRODUCT)),)
 TARGET_RECOVERY_DENSITY := xhdpi
 else
 TARGET_RECOVERY_DENSITY := xxhdpi
