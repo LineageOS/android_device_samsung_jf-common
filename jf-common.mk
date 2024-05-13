@@ -24,7 +24,9 @@ $(call inherit-product, vendor/lineage/build/target/product/product_launched_wit
 $(call inherit-product, vendor/samsung/jf-common/jf-common-vendor.mk)
 
 # Soong
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung/oor \
+    $(LOCAL_PATH)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
